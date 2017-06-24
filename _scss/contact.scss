@@ -1,0 +1,401 @@
+@import 'global_addon.scss';
+
+// Most of the code goes here
+	html {
+		body {
+			#wrapper {
+				padding-top: 0;
+				padding-bottom: 0;
+				background-image: url("../_images/_contact/sakura.png");
+				background-repeat: no-repeat;
+				background-position: right center;
+				div.success {
+					padding-top: 40px;
+				}
+				div.contact_form {
+					padding-top: 20px;
+					padding-bottom: 60px;
+					form {
+						.input-group-addon {
+							background-color: default;
+							color: $main_color1;
+						}
+						legend {
+							padding-left: 5px;
+							text-align: center;
+							color: $main_color1;
+							font-size: 2.7em;
+							font-weight: bold;
+						}
+						.contact_option {
+							label:not(.control-label) {
+								border-color: rgba(255,0,0,0);
+								border-radius: 3px;
+								border-width: 1px;
+								border-style: dashed;
+								padding-left: 30px;
+								padding-right: 10px;
+								padding-top: 3px;
+								&.error {
+									border-color: rgba(255,0,0,1);
+									background-color: rgba(255,0,0,.1);
+								}
+							}
+						}
+						input, textarea {
+							background-color: rgba(255,255,255,.75);
+							&.error {
+								border-color: red;
+								background-color: rgba(255,0,0,.1);
+							}
+						}
+						.contact_option {
+							margin-left: 20px;
+							label {
+								&:not(.control-label) {
+									margin-left: 20px;
+								}
+							}
+						}
+					}
+				}
+				div.company_info {
+					background-color: white;
+					//background-color: lighten($main_color3,40%);
+					color: $main_color3;
+					position: relative;
+					overflow: hidden;
+					padding-top: 70px;
+					a {
+						transition: color .2s;
+						&:hover, &:focus {
+							text-decoration: none;
+							color: $main_color1;
+						}
+					}
+					&>img {
+						position: absolute;
+						bottom: 0px;
+						left: 0;
+						opacity: 1;
+						height: 100%;
+					}
+					div p img {
+						height: 20px;
+						width: auto;
+					}
+					span{
+						i {
+							font-size: 1.2em;
+						}
+						&.open {
+							color: lighten(green,10%);
+						}
+						&.closed {
+							color: lighten(red,10%);
+						}
+					}
+					h2 {
+						color: $main_kicker_color1;
+						padding-bottom: 15px;
+						font-weight: bold;
+					}
+					p {
+						padding-left: 20px;
+						&>i {
+
+						}
+					}
+					iframe.line-it-button {
+						margin-left: 20px;
+					}
+					div.fb-like {
+						margin-left: 20px;
+						color: white;
+					}
+					div.button_container {
+						margin-left: 20px;
+						a {
+							&:hover {
+								opacity: .8;
+							}
+						}
+						.line_button {
+							margin-right: 10px;
+							img {
+								width: 40px;
+								height: auto;
+							}
+						}
+						.facebook_button {
+							margin-right: 10px;
+							img {
+								width: 40px;
+								height: auto;
+							}
+						}
+						.instagram_button {
+							img {
+								width: 40px;
+								height: auto;
+							}
+						}
+					}
+					
+				}
+			}
+			#space_before_bottom_bar{
+				background-color: white;
+				margin: 0;
+				padding-bottom: 40px;
+			}
+			footer#bottom_bar {
+				margin: 0;
+			}
+		}
+	}
+	// END DEFAULT SIZE
+
+/* Bootstrap 4's xs */
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+	html {
+		body {
+
+		}
+	}
+	// END XX SMALL SIZE
+
+}// END CUSTOM
+
+/* Bootstrap 4's sm */
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 576px) {
+
+	html {
+		body {
+			#wrapper {
+				div.contact_form {
+					form {
+						legend {
+
+						}
+						.contact_option {
+							label:not(.control-label) {
+
+								&.error {
+
+								}
+							}
+						}
+						input, textarea {
+							&.error {
+
+							}
+						}
+						.contact_option {
+							label {
+								&:not(.control-label) {
+
+								}
+							}
+						}
+					}
+				}
+				div.company_info {
+					div p img {
+
+					}
+					span{
+						i {
+
+						}
+						&.open {
+
+						}
+					}
+					p {
+
+					}
+				}
+			}
+		}
+	}
+	// END EXTRA SMALL SIZE
+
+}// END CUSTOM
+
+/* Bootstrap 3's md */
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	html {
+		body {
+			#wrapper {
+				div.contact_form {
+					form {
+						legend {
+
+						}
+						.contact_option {
+							label:not(.control-label) {
+
+								&.error {
+
+								}
+							}
+						}
+						input, textarea {
+							&.error {
+
+							}
+						}
+						.contact_option {
+							label {
+								&:not(.control-label) {
+
+								}
+							}
+						}
+					}
+				}
+				div.company_info {
+					div p img {
+
+					}
+					span{
+						i {
+
+						}
+						&.open {
+
+						}
+					}
+					h2 {
+						font-size: 2.2em;
+					}
+					p {
+						font-size: 1.2em;
+					}
+				}
+			}
+		}
+	}
+	// END SMALL SIZE
+
+}// END CUSTOM
+
+/* Bootstrap 4's lg */
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+	html {
+		body {
+			#wrapper {
+				div.contact_form {
+					form {
+						legend {
+
+						}
+						.contact_option {
+							label:not(.control-label) {
+
+								&.error {
+
+								}
+							}
+						}
+						input, textarea {
+							&.error {
+
+							}
+						}
+						.contact_option {
+							label {
+								&:not(.control-label) {
+
+								}
+							}
+						}
+					}
+				}
+				div.company_info {
+					div p img {
+
+					}
+					span{
+						i {
+
+						}
+						&.open {
+
+						}
+					}
+					p {
+
+					}
+				}
+			}
+		}
+	}
+	// END MEDIUM SIZE
+
+}// END CUSTOM
+
+/* Bootstrap 4's xl */
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+	html {
+		body {
+			#wrapper {
+				div.contact_form {
+					form {
+						legend {
+
+						}
+						.contact_option {
+							label:not(.control-label) {
+
+								&.error {
+
+								}
+							}
+						}
+						input, textarea {
+							&.error {
+
+							}
+						}
+						.contact_option {
+							label {
+								&:not(.control-label) {
+
+								}
+							}
+						}
+					}
+				}
+				div.company_info {
+					div p img {
+
+					}
+					span{
+						i {
+
+						}
+						&.open {
+
+						}
+					}
+					p {
+
+					}
+				}
+			}
+		}
+	}
+	// END LARGE SIZE
+
+}// END CUSTOM

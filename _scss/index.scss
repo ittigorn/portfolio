@@ -1,0 +1,280 @@
+@import 'global_addon.scss';
+
+// Most of the code goes here
+	html {
+		body {
+			#wrapper {
+				div.continue_reading {
+					display: none;
+					z-index: 100;
+					position: absolute;
+					bottom: 0;
+					width: 100%;
+					padding-bottom: 15px;
+					background: linear-gradient(to bottom, rgba(38, 38, 38, 0), rgba(38, 38, 38, .9), rgba(38, 38, 38, 1));
+					h3 {
+						text-align: center;
+						color: inherit;
+						transition: color .3s;
+						cursor: pointer;
+						font-size: 1.3em;
+						padding-top: 35px;
+						margin-bottom: 0;
+						&:hover, &:focus {
+							color: $main_color1;
+						}
+					}
+				}
+				section {
+					h2.section_title {
+						color: white;
+						text-align: center;
+						margin-bottom: 15px;
+						font-size: 1.5em;
+						i {
+							margin-right: 10px;
+							font-size: .7em;
+							color: $main_color1;
+						}
+					}
+				}
+				section#intro {
+					padding-bottom: 20px;
+					img#profile_pic {
+						border-radius: 100%;
+						max-height: 350px;
+						padding: 15px;
+					}
+					.slogan {
+						font-size: 1.1em;
+						font-weight: bold;
+						span {
+							color: $main_color1;
+						}
+					}
+					.facebook {
+						margin-bottom: 5px;
+					}
+					h2 {
+						color: $main_color1;
+						margin-bottom: 15px;
+					}
+					p {
+						a {
+							color: inherit;
+							transition: color .3s;
+							&:hover, &:focus {
+								color: $main_color1;
+							}
+						}
+					}
+					.intro_container {
+						overflow: hidden;
+						position: relative;
+					}
+				}
+				section#summary {
+					padding-top: 20px;
+					padding-bottom: 20px;
+					background-color: lighten($background_color,15%);
+					div.inner_div {
+						position: relative;
+						overflow: hidden;
+						padding-top: 20px;
+						background-color: $background_color;
+						border-radius: 5px;
+						ul {
+							padding: 0 0 0 20px;
+							margin-right: 15px;
+							margin-left: 15px;
+						}
+					}
+				}
+				section#info {
+					padding-top: 30px;
+					padding-bottom: 30px;
+					h2 {
+						&.core {
+							margin-bottom: 20px;
+						}
+						&.development {
+							margin-top: 25px;
+						}
+					}
+					div.core {
+						p {
+							margin-bottom: 5px;
+						}
+					}
+					ul {
+						padding-left: 25px;
+					}
+					a {
+						color: inherit;
+						transition: color .3s;
+						&:hover, &:focus {
+							color: $main_color1;
+						}
+					}
+				}
+				section#technical {
+					padding-top: 20px;
+					padding-bottom: 20px;
+					background-color: lighten($background_color,15%);
+					div.inner_div {
+						position: relative;
+						overflow: hidden;
+						padding: 20px;
+						background-color: $background_color;
+						border-radius: 5px;
+						h3 {
+							font-size: 1.2em;
+							color: lighten($text_color, 10%);
+						}
+						ul {
+							margin-right: 15px;
+							margin-left: 15px;
+							padding-left: 15px;
+							margin-bottom: 0;
+							li {
+								border-width: 0 0 0 1px;
+								border-color: $main_color1;
+								border-style: solid;
+								margin-left: -15px;
+								padding-left: 15px;
+								list-style: none;
+								ul {
+									li {
+										margin-left: -25px;
+									}
+								}
+							}
+						}
+					}
+				}
+				section#experience {
+					padding-top: 30px;
+					padding-bottom: 30px;
+					h2 {
+
+					}
+					ul {
+						padding-left: 25px;
+						li {
+							p {
+								margin-bottom: 5px;
+								&.description, &.url {
+									margin-left: 15px;
+								}
+							}
+						}
+					}
+					a {
+						color: inherit;
+						transition: color .3s;
+						&:hover, &:focus {
+							color: $main_color1;
+						}
+					}
+				}
+			}
+		}
+	}
+	// END DEFAULT SIZE
+
+/* Bootstrap 4's xs */
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+	html {
+		body {
+			#wrapper {
+				
+			}
+		}
+	}
+	// END XX SMALL SIZE
+
+}// END CUSTOM
+
+/* Bootstrap 4's sm */
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 576px) {
+
+	html {
+		body {
+			#wrapper {
+				section#intro {
+					img#profile_pic {
+						
+					}
+				}
+			}
+		}
+	}
+	// END EXTRA SMALL SIZE
+
+}// END CUSTOM
+
+/* Bootstrap 3's md */
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	html {
+		body {
+			#wrapper {
+				section#summary {
+					div.inner_div {
+						ul {
+							margin-right: 25px;
+							margin-left: 25px;
+						}
+					}
+				}
+			}
+		}
+	}
+	// END SMALL SIZE
+
+}// END CUSTOM
+
+/* Bootstrap 4's lg */
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+	html {
+		body {
+			#wrapper {
+				section#intro {
+					margin-top: 15px;
+				}
+				section#summary {
+					div.inner_div {
+						ul {
+							margin-right: 35px;
+							margin-left: 35px;
+							margin-bottom: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+	// END MEDIUM SIZE
+
+}// END CUSTOM
+
+/* Bootstrap 4's xl */
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+	html {
+		body {
+			#wrapper {
+				
+			}
+		}
+	}
+	// END LARGE SIZE
+
+}// END CUSTOM

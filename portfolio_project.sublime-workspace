@@ -1,0 +1,1288 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"eac",
+				"each	$.each()"
+			],
+			[
+				"part",
+				"parent	.parent()"
+			],
+			[
+				"main",
+				"main_color1"
+			],
+			[
+				"backgrou",
+				"background_color"
+			],
+			[
+				"text",
+				"text_color"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"Yoi",
+				"YoiBrand"
+			],
+			[
+				"link",
+				"linkedin"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"temp",
+				"temp_key"
+			],
+			[
+				"tem",
+				"temp_key"
+			],
+			[
+				"DB",
+				"DB_NAME"
+			],
+			[
+				"get",
+				"get	$.get()"
+			],
+			[
+				"border-",
+				"border-color"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"produ",
+				"product_review"
+			],
+			[
+				"focus",
+				"focus"
+			],
+			[
+				"product",
+				"product"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"submi",
+				"submit_email"
+			],
+			[
+				"beau",
+				"beauty_journey"
+			],
+			[
+				"blog",
+				"blog_id"
+			],
+			[
+				"publis",
+				"published_id"
+			],
+			[
+				"publi",
+				"published_id"
+			],
+			[
+				"beauty",
+				"beauty_tips"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"new",
+				"new_content_array"
+			],
+			[
+				"path",
+				"path_to_blog_folder"
+			],
+			[
+				"content",
+				"content_type"
+			],
+			[
+				"trim",
+				"trim	(): string String"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"cover",
+				"cover_image_src"
+			],
+			[
+				"xml",
+				"xml_subtrack"
+			],
+			[
+				"size",
+				"sizeof"
+			],
+			[
+				"fil",
+				"file_error"
+			],
+			[
+				"image",
+				"image_preview"
+			],
+			[
+				"cancel",
+				"cancel_upload"
+			],
+			[
+				"section",
+				"section#upload_image"
+			],
+			[
+				"si",
+				"siblings	.siblings()"
+			],
+			[
+				"lastcli",
+				"last_clicked_button"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"ima",
+				"image_picker_fader"
+			],
+			[
+				"hide",
+				"hide_image_picker"
+			],
+			[
+				"remove",
+				"removeAttr	.removeAttr()"
+			],
+			[
+				"resul",
+				"result_indicator"
+			],
+			[
+				"pare",
+				"parent_id"
+			],
+			[
+				"rg",
+				"rgba	rgba()"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"filere",
+				"file_result"
+			],
+			[
+				"ajax",
+				"ajax_request"
+			],
+			[
+				"ready",
+				"ready	$(document).ready"
+			],
+			[
+				"focu",
+				"focus"
+			],
+			[
+				"button",
+				"button_container"
+			],
+			[
+				"toggle",
+				"toggle_content"
+			],
+			[
+				"btn-",
+				"btn-success"
+			],
+			[
+				"mode",
+				"mode_readable"
+			],
+			[
+				"listst",
+				"list-style"
+			],
+			[
+				"type",
+				"type_allowed"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"you",
+				"youtube_tag"
+			],
+			[
+				"extra",
+				"extract_video_id"
+			],
+			[
+				"video",
+				"video_url"
+			],
+			[
+				"string",
+				"String	( value: any ): String String"
+			],
+			[
+				"rea",
+				"ready	$(document).ready"
+			],
+			[
+				"use",
+				"use_recaptcha_localhost"
+			],
+			[
+				"bypass",
+				"bypass_recaptcha_admin"
+			],
+			[
+				"sub_",
+				"sub_of"
+			],
+			[
+				"sele",
+				"selector"
+			],
+			[
+				"dele",
+				"delete_option"
+			],
+			[
+				"option",
+				"option_type"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"cate",
+				"Category"
+			],
+			[
+				"tempsli",
+				"temp_slide_keys"
+			],
+			[
+				"sli",
+				"slide_list"
+			],
+			[
+				"ajaxre",
+				"ajax_response"
+			],
+			[
+				"arran",
+				"arrange_order"
+			],
+			[
+				"exc",
+				"exclude_disabled"
+			],
+			[
+				"slide",
+				"slide_id"
+			],
+			[
+				"แก",
+				"แก้ไข"
+			],
+			[
+				"prop",
+				"prop	.prop() - single"
+			],
+			[
+				"title",
+				"title_th"
+			],
+			[
+				"titl",
+				"title_th"
+			],
+			[
+				"query",
+				"query_and_check"
+			],
+			[
+				"th_",
+				"th_xl"
+			],
+			[
+				"arr",
+				"arrange"
+			],
+			[
+				"uploa",
+				"upload_slide_again"
+			],
+			[
+				"uploadsli",
+				"upload_slide_again"
+			],
+			[
+				"upload",
+				"upload_picture"
+			],
+			[
+				"fata",
+				"file_1_fatal_error"
+			],
+			[
+				"exis",
+				"existing_pics"
+			],
+			[
+				"che",
+				"check_sku"
+			],
+			[
+				"up",
+				"upload_section"
+			],
+			[
+				"pro",
+				"product_sku"
+			],
+			[
+				"sku",
+				"sku_indicator"
+			],
+			[
+				"fucntio",
+				"function"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"upl",
+				"upload_product_pictures"
+			],
+			[
+				"prod",
+				"product_image"
+			],
+			[
+				"do",
+				"download"
+			],
+			[
+				"ur",
+				"product_url"
+			],
+			[
+				"encod",
+				"encode_type"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"urlencode",
+				"url_encode"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"en",
+				"encode_type"
+			],
+			[
+				"ไม่",
+				"ไม่ใช้งาน"
+			],
+			[
+				"ชื่อ",
+				"ชื่อจริง"
+			],
+			[
+				"return",
+				"return_id_only"
+			],
+			[
+				"sear",
+				"search_criteria"
+			],
+			[
+				"backgo",
+				"background-color"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"logo",
+				"logo_top"
+			],
+			[
+				"load",
+				"load	.load()"
+			],
+			[
+				"main_col",
+				"main_color3"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"carou",
+				"carousel_size"
+			],
+			[
+				"loadin",
+				"load_index_carousel"
+			],
+			[
+				"win",
+				"win_width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_includes/_functions/functions.php",
+			"settings":
+			{
+				"buffer_size": 4032,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/index.php",
+			"settings":
+			{
+				"buffer_size": 22745,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_scss/index.scss",
+			"settings":
+			{
+				"buffer_size": 4873,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_scss/global.scss",
+			"settings":
+			{
+				"buffer_size": 9216,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/navigation_bar.php",
+			"settings":
+			{
+				"buffer_size": 4528,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "Package Control: insta",
+		"selected_items":
+		[
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/wamp64/www/portfolio2",
+		"/D/wamp64/www/portfolio2/_includes",
+		"/D/wamp64/www/portfolio2/_includes/_functions",
+		"/D/wamp64/www/portfolio2/_includes/_functions/_classes",
+		"/D/wamp64/www/portfolio2/_scss"
+	],
+	"file_history":
+	[
+		"/D/wamp64/www/portfolio2/_includes/_functions/_classes/server.php",
+		"/D/wamp64/www/portfolio2/public/error_log",
+		"/D/wamp64/www/portfolio2/_includes/navigation_bar.php",
+		"/D/wamp64/www/portfolio2/_scss/global.scss",
+		"/D/wamp64/www/portfolio/_includes/navigation_bar.php",
+		"/D/wamp64/www/yoi/_scss/global.scss",
+		"/D/wamp64/www/portfolio1/public/index.php",
+		"/D/wamp64/www/portfolio/_scss/global.scss",
+		"/D/wamp64/www/portfolio/_scss/global_addon.scss",
+		"/D/wamp64/www/portfolio1/_scss/global_addon.scss",
+		"/D/wamp64/www/portfolio1/_scss/global.scss",
+		"/D/wamp64/www/portfolio/_includes/_scripts/facebook_script.php",
+		"/D/wamp64/www/portfolio/TEMPLATES/TEMPLATE.scss",
+		"/D/wamp64/www/portfolio/_scss/index.scss",
+		"/D/wamp64/www/portfolio/TEMPLATES/TEMPLATE.css",
+		"/D/wamp64/www/portfolio/TEMPLATES/TEMPLATE.php",
+		"/D/wamp64/www/portfolio/public/computer.php",
+		"/D/wamp64/www/portfolio/_includes/_functions/_classes/server.php",
+		"/D/wamp64/www/portfolio/_includes/global_header_addon.php",
+		"/D/wamp64/www/yoi/_includes/navigation_bar.php",
+		"/D/wamp64/www/portfolio1/_includes/navigation_bar.php",
+		"/D/wamp64/www/portfolio/_includes/run_first_addon.php",
+		"/D/wamp64/_portfolio_connections/config.php",
+		"/D/wamp64/_portfolio1_connections/config.php",
+		"/D/wamp64/www/yoi/index.php",
+		"/D/wamp64/www/portfolio/_includes/_functions/_classes/page.php",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/page.php",
+		"/D/wamp64/www/yoi/_includes/_functions/functions.php",
+		"/D/Tutorials/_Currently Learning/Node Js Essential Training Updated 12 2015/Exercice Files/Ch03/03_02/start/app.js",
+		"/C/Users/Petch/Desktop/test.js",
+		"/D/Pics/Photo shooting ideas/Links.txt",
+		"/D/Tutorials/_Currently Learning/Node Js Essential Training Updated 12 2015/Exercice Files/Ch03/03_01/start/global.js",
+		"/E/Documentary - Films/Kitchen Nightmares s06/kitchen.nightmares.us.s06e16.hr.ws.pdtv.x264-2hd.srt",
+		"/C/Users/Petch/Downloads/Kitchen.Nightmares.US.S07E01.PDTV.x264-2HD.srt.srt",
+		"/C/Users/Petch/Desktop/index.html",
+		"/C/Users/Petch/Desktop/index.php",
+		"/D/wamp64/www/portfolio/_includes/_functions/functions.php",
+		"/D/wamp64/www/yoi/_cron_jobs/backup_db.php",
+		"/D/wamp64/www/yoi/SNIPPETS/cron_job_commands.txt",
+		"/D/wamp64/www/yoi/public/test.php",
+		"/D/wamp64/_yoi_connections/config.php",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/server.php",
+		"/D/wamp64/www/yoi/database_backup_13_pm_06_01_17.sql",
+		"/D/wamp64/www/yoi/database_backup_12_pm_06_01_17.sql",
+		"/D/Web Developing/Portfolio/ideas.txt",
+		"/C/Users/Petch/Desktop/Agenda.txt",
+		"/D/wamp64/www/portfolio/_includes/admin_global_header_addon.php",
+		"/D/wamp64/www/portfolio/_includes/admin_ajax_run_first_addon.php",
+		"/D/wamp64/_portfolio_connections/portfolio_project",
+		"/D/wamp64/_portfolio2_connections/config.php",
+		"/D/wamp64/www/yoi/public/index.php",
+		"/D/wamp64/www/yoi/_scss/index.scss",
+		"/D/wamp64/www/yoi/public/_ajax/index_static_div.php",
+		"/D/wamp64/www/yoi/_scss/stores.scss",
+		"/D/wamp64/www/yoi/public/admin/admin_login.php",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/slide.php",
+		"/D/Google Drive Sync Folder/Chat history with Top (Kc38)(VJ Cool).txt",
+		"/D/Downloads/Building.a.Note-Taking.App.for.Android/nfo.nfo",
+		"/D/wamp64/www/yoi/public/admin/admin_file.php",
+		"/D/wamp64/www/yoi/_scss/admin_file.scss",
+		"/D/wamp64/www/yoi/_includes/admin_navigation_bar.php",
+		"/D/wamp64/www/yoi/public/admin/admin_blog.php",
+		"/C/Users/Petch/Downloads/php.ini",
+		"/D/wamp64/www/yoi/public/admin/error_log",
+		"/D/wamp64/www/yoi/public/products.php",
+		"/D/wamp64/www/yoi/_scss/products.scss",
+		"/D/Downloads/Zerene.Stacker.v1.02.64bit-FOSI/fo-zs64/key.txt",
+		"/C/Users/Petch/Desktop/New Text Document.txt",
+		"/D/wamp64/www/yoi/public/index2.php",
+		"/D/Downloads/Zerene.Stacker.v1.02.64bit-FOSI/fosi.nfo",
+		"/D/Downloads/Zerene.Stacker.v1.02.64bit-FOSI/New folder/fosi.nfo",
+		"/D/Downloads/Zerene.Stacker.v1.02.64bit-FOSI/fo-zs64a/fosi.nfo",
+		"/D/wamp64/www/yoi/public/admin/admin_index.php",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/blog.php",
+		"/D/wamp64/www/yoi/public/_blogs/product_review/file_0.xml",
+		"/D/wamp64/www/yoi/public/blog.php",
+		"/D/wamp64/www/yoi/_includes/_modules/view_same_photo.php",
+		"/D/wamp64/www/yoi/_scss/blog.scss",
+		"/D/wamp64/www/yoi/_scss/admin_blog.scss",
+		"/D/wamp64/www/yoi/public/admin/_ajax/admin_ajax_file.php",
+		"/D/wamp64/www/yoi/_scss/view_same_photo.scss",
+		"/D/wamp64/www/yoi/public/_blogs/product_review/temp.xml",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/gallery.php",
+		"/D/wamp64/www/yoi/public/contact.php",
+		"/D/wamp64/www/yoi/public/admin/_ajax/admin_ajax_blog.php",
+		"/D/wamp64/www/yoi/public/admin/admin_download.php",
+		"/D/wamp64/www/yoi/public/_blogs/beauty_tips/temp.xml",
+		"/D/wamp64/www/yoi/public/admin/admin_email.php",
+		"/D/wamp64/www/yoi/public/admin/admin_product_options.php",
+		"/D/wamp64/www/yoi/public/admin/admin_products.php",
+		"/D/wamp64/www/yoi/public/admin/admin_stores.php",
+		"/D/wamp64/www/yoi/public/admin/admins.php",
+		"/D/wamp64/www/yoi/public/admin/admin_edit_home_page.php",
+		"/D/wamp64/www/yoi/_includes/admin_global_header_addon.php",
+		"/D/wamp64/www/yoi/public/_blogs/beauty_journey/1.xml",
+		"/D/wamp64/www/yoi/public/_blogs/beauty_journey/0.xml",
+		"/D/wamp64/www/yoi/public/_blogs/beauty_tips/1.xml",
+		"/D/wamp64/www/yoi/public/_blogs/beauty_tips/0.xml",
+		"/D/wamp64/www/yoi/_scss/global_addon.scss",
+		"/D/wamp64/www/yoi/public/error_log",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/file_system.php",
+		"/D/wamp64/www/yoi/public/_blogs/beauty_tips/.xml",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/mysql_db.php",
+		"/D/wamp64/www/experiments/domdocument/create.php",
+		"/D/wamp64/www/experiments/domdocument/temp.xml",
+		"/D/wamp64/www/experimental/domdocument/create.php",
+		"/D/wamp64/www/yoi/TEMPLATES/.htaccess",
+		"/D/wamp64/www/yoi/_scss/.htaccess",
+		"/D/wamp64/www/my_tools/upload.php",
+		"/D/wamp64/www/my_tools/ajax_upload.php",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/product.php",
+		"/D/wamp64/www/rm_tools/magento_category_code_generator/edit.php",
+		"/D/wamp64/www/yoi/SNIPPETS/misc.js",
+		"/D/wamp64/www/rm_tools/magento_category_code_generator/index.php",
+		"/D/Tutorials/_New Tutorials/The Science of Logo Design {AceMerlin}/AceMerlin.Torrents.nfo",
+		"/D/Tutorials/_New Tutorials/Facebook for Business/README.txt",
+		"/D/Tutorials/_New Tutorials/Building a Web Interface with React.js/Important ! Readme.txt",
+		"/D/wamp64/www/yoi/public/admin/.htaccess",
+		"/D/wamp64/www/yoi/_includes/.htaccess",
+		"/D/wamp64/www/yoi/.htaccess",
+		"/D/wamp64/www/yoi/public/admin/_ajax/admin_ajax_server.php",
+		"/D/wamp64/www/yoi/_includes/global_header_addon.php",
+		"/D/wamp64/www/yoi/public/_scripts/global.js",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/option.php",
+		"/D/wamp64/www/yoi/public/admin/_ajax/admin_ajax_product_options.php",
+		"/D/wamp64/www/yoi/_scss/admin_product_options.scss",
+		"/D/wamp64/www/yoi/_scss/admin_edit_home_page.scss",
+		"/D/wamp64/www/yoi/public/admin/_ajax/admin_ajax_edit_home_page.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\wamp64\\www\\yoi",
+			"D:\\wamp64\\www\\yoi\\public",
+			"D:\\wamp64\\www\\yoi\\_scss",
+			"D:\\wamp64\\www\\yoi\\public",
+			"D:\\wamp64\\www\\yoi",
+			"D:\\wamp64\\www\\portfolio",
+			"D:\\wamp64\\www\\vjcool\\public\\admin\\test",
+			"D:\\wamp64\\www\\vjcool\\public\\admin",
+			"D:\\wamp64\\www\\vjcool"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"navbarNavDropdown",
+			";\n",
+			"brand",
+			"button",
+			"inner",
+			"max-",
+			"navbarSupportedContent",
+			"\"); ?>",
+			"content(\"",
+			"</li>",
+			"<li>",
+			"</li>",
+			"<li>",
+			"\\n",
+			"’",
+			"content(",
+			"main_nav",
+			"navbar-brand",
+			"floating_social_link",
+			"    ",
+			"  ",
+			"localhost",
+			"pi",
+			"raspberry",
+			"load_welcome_div",
+			"looking_like_anchor_tag",
+			"lang.php",
+			"carous",
+			"floating_social_link",
+			"ไม่มีไฟล์ไหนถูกอัพโหลด",
+			".sku",
+			"check_sku",
+			"product_picture",
+			"$products",
+			"var_du",
+			"product_image2",
+			"product_image1",
+			"multi_language",
+			"beauty_journey",
+			"list_all",
+			"product",
+			"choose_product_for_slide",
+			"เลือก",
+			".css({",
+			"large_same_photo",
+			".large_photo",
+			"view_photo_fader",
+			"pointer",
+			"image_preview",
+			"title",
+			"ภาพเล็ก",
+			"content_image",
+			"content",
+			"transition",
+			"upload_picture",
+			"choose_picture",
+			"content_image",
+			"show_upload_form",
+			"upload",
+			"show_image_picker",
+			"choose",
+			" <",
+			"ดาวน์โหลด",
+			"price",
+			"บาท",
+			"    ",
+			"ลบ",
+			"admin_blog_fader",
+			"fader",
+			"$win",
+			"admin_product_fader",
+			"slide",
+			"delete",
+			"mode === 'li",
+			"publiches_id",
+			"load_existing_blog",
+			"beauty_tips",
+			"preview",
+			"font-fami",
+			"famil",
+			"current_option",
+			"mode === lis",
+			"add",
+			"beauty_tips",
+			"title",
+			".ready",
+			"multiple",
+			"beauty_tips",
+			"fixed_max_width",
+			"carou",
+			"echo",
+			"save_blog",
+			"get_available_content_id",
+			"var_du",
+			"conten",
+			"content[]",
+			"if",
+			"			\n",
+			"path_to_blog_folder",
+			"$xml",
+			"content[]",
+			"cover_photo_src",
+			"file_error",
+			"$file_1",
+			"file_1",
+			"    ",
+			"removeclass",
+			"checking",
+			"cancel_upload",
+			"cancel",
+			"calcel_uplo",
+			"fade_in_fader",
+			"$win",
+			"$wiwn",
+			"delete_con",
+			".css",
+			"uploadFiles",
+			"form",
+			"image_picker_fader",
+			"cover",
+			"show_image_picker",
+			"relative_path_addon",
+			"admin_store_fader",
+			"content_photo",
+			"cover_photo",
+			"fader",
+			"$current_element).siblings('",
+			"this).siblings('p.result_indicator'"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'); ?>",
+			"lang('",
+			"'); ?></li>",
+			"<li><?php lang('",
+			"'); ?></li>",
+			"<li><?php lang('",
+			"</li>\\n<li>",
+			"&#39;",
+			"lang(",
+			"\\t",
+			"Pi",
+			"Raspberry",
+			"productimage2",
+			"productimage1",
+			"product_review",
+			"choose_product_sku",
+			".large_same_photo",
+			"view_same_photo_fader",
+			"ภาพกลุ่ม",
+			"upload_image",
+			"choose_image",
+			"\\t",
+			"admin_blog_fader3",
+			"admin_blog_fader",
+			"blog",
+			"beauty_journey",
+			"$blog",
+			"content_value[]",
+			"cover_image_src",
+			"$current_file",
+			"current_file",
+			"\\t",
+			"admin_blog_fader",
+			"image_picker_fader",
+			"content_image",
+			"cover_image",
+			"'div.cover_photo ",
+			"'div.cover_photo p.result_indicator'",
+			"\\t",
+			"beauty_journey",
+			"YouTube",
+			"\\npublic $",
+			"public $\\n",
+			"\\t",
+			"$amp_position",
+			"$video_id",
+			"use_recaptcha_",
+			".navbar",
+			".main_nav",
+			"3",
+			"$selector",
+			"carousel_indicators",
+			"subcategory",
+			"slide",
+			"slide_id",
+			"carousel_slide_array",
+			"image_carousel",
+			"$page",
+			"temp_slide_key",
+			"list_temp_slide(",
+			"th_xl",
+			"th_md",
+			"en_xl",
+			"en_md",
+			"th_xl",
+			"th_md",
+			"en_xl",
+			"en_md",
+			"$slide_key",
+			"value=\"\" p",
+			"$slide->temp_slide",
+			"slide_info",
+			"updated",
+			"xl_th",
+			"md_th",
+			"xl_",
+			"h2",
+			"success",
+			"$product->sku",
+			"_2",
+			"file_path_full_1",
+			"$ratio",
+			"$path_to_file",
+			"width",
+			"$path_to_file",
+			"$source",
+			"$destination",
+			"$height",
+			"$width",
+			"$ratio",
+			"file_2_ok",
+			"file_1_ok",
+			"admin_file",
+			"product_picture",
+			"path_to_file",
+			"$raw",
+			"recaptcha_secret_live",
+			"province",
+			"",
+			"darken",
+			"generate_index_carousel",
+			"\\t",
+			"bc",
+			"",
+			"col-",
+			".jpg",
+			"\\t",
+			"store",
+			"dealer",
+			"bangkok",
+			"store",
+			"stores",
+			"ร้านค้า",
+			"admin_stores",
+			"id",
+			"พื้นที่ให้บริการ",
+			"area",
+			"ร้านค้า",
+			"$new_store_info_array[\"name_en\"];",
+			"'';",
+			"\\t= ;",
+			"$this->",
+			";\\n",
+			"public $",
+			"\\npublic ",
+			"store",
+			"stores",
+			"twitter"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_includes/_functions/functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1620,
+								1620
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 700.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22745,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										22608,
+										22608
+									]
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								12391,
+								12391
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 517.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_scss/index.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4873,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4616,
+								4616
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4650.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_scss/global.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3188,
+								3188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4845.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_includes/navigation_bar.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2726,
+								2726
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 590.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "portfolio_project.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

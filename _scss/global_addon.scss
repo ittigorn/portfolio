@@ -1,0 +1,154 @@
+// DECLARE VARIABLES
+
+// stock fonts
+$stock_thai_font1: 			'Kanit', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$stock_thai_font2: 			'Maitree', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$stock_thai_font3: 			'Sriracha', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$stock_thai_font4: 			'Athiti', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// font families
+$thai_font: 			$stock_thai_font4;
+$english_font: 			'Helvetica Neue', Helvetica, Arial, sans-serif;
+$english_font2: 		'Satisfy', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$multi_language_font: 	'Kanit', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Lighter Theme
+
+// Dark Theme
+$main_color1: #fd6f1b; // Orange
+$main_color2: rgba(21,21,21,1); // almost black
+$main_color3: #767676; // charcoal
+$main_kicker_color1: rgba(68,140,203,1); // dark blue
+
+$background_color: #262626; // charcoal
+
+$text_color: #AEAEAE; // Light Grey
+$text_color2: #076324; // dark green
+
+$header_text_color: $main_color3;
+$navbar_color: $main_color1;
+
+$danger_color: #d9534f;
+$danger_text: white;
+
+$success_color: #5cb85c;
+$success_text: white;
+
+$placeholder_color: #d9d9d9;
+$filled_field_color: #e6ffe6;
+$quickfill_color: #ffffe6;
+
+// MIXINS
+@mixin background_fixed($background_url) {
+	background-image: url($background_url);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50%;
+} // end mixin
+
+@mixin gradient_vertical_2($color_1, $color_2) {
+    background: $color_1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($color_1, $color_2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($color_1, $color_2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($color_1, $color_2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($color_1, $color_2); /* Standard syntax */
+} // end mixin
+
+@mixin gradient_vertical_3($color_1, $color_2, $color_3) {
+    background: $color_1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($color_1, $color_2, $color_3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($color_1, $color_2, $color_3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($color_1, $color_2, $color_3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($color_1, $color_2, $color_3); /* Standard syntax */
+} // end mixin
+
+@mixin gradient_vertical_4($color_1, $color_2, $color_3, $color_4) {
+    background: $color_1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($color_1, $color_2, $color_3, $color_4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($color_1, $color_2, $color_3, $color_4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($color_1, $color_2, $color_3, $color_4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($color_1, $color_2, $color_3, $color_4); /* Standard syntax */
+} // end mixin
+
+@mixin gradient_horizontal_3($color_1, $color_2, $color_3) {
+    background: $color_1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(90deg, $color_1, $color_2, $color_3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, $color_1, $color_2, $color_3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, $color_1, $color_2, $color_3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg, $color_1, $color_2, $color_3); /* Standard syntax */
+} // end mixin
+
+@mixin angle($pseudo, $flip: false, $angle: 1.5deg) {
+  // Possible values for $pseudo are: before, after, both
+  @if $pseudo == 'before' or $pseudo == 'after' or $pseudo == 'both' {
+    position: relative;
+    z-index: 1;
+    $selector: if($pseudo == 'both', '&:before,&:after', '&:#{$pseudo}');
+
+    #{$selector} {
+      background: inherit;
+      content: '';
+      display: block;
+      height: 50%;
+      left: 0;
+      position: absolute;
+      right: 0;
+      z-index: -1;
+      -webkit-backface-visibility: hidden; // for Chrome Windows
+    }
+
+    @if $pseudo == 'before' {
+      #{$selector} {
+        top: 0;
+
+        @if $flip {
+          transform: skewY($angle * -1);
+          transform-origin: 0 0;
+        } @else {
+          transform: skewY($angle);
+          transform-origin: 100% 0;
+        }
+      }
+    }
+
+    @if $pseudo == 'after' {
+      #{$selector} {
+        bottom: 0;
+
+        @if $flip {
+          transform: skewY($angle);
+          transform-origin: 0 100%;
+        } @else {
+          transform: skewY($angle * -1);
+          transform-origin: 100%;
+        }
+      }
+    }
+
+    @if $pseudo == 'both' {
+      &:before {
+        top: 0;
+
+        @if $flip {
+          transform: skewY($angle * -1);
+          transform-origin: 0 0;
+        } @else {
+          transform: skewY($angle);
+          transform-origin: 100% 0;
+        }
+      }
+
+      &:after {
+        bottom: 0;
+
+        @if $flip {
+          transform: skewY($angle);
+          transform-origin: 0 0;
+        } @else {
+          transform: skewY($angle * -1);
+          transform-origin: 100%;
+        }
+      }
+    }
+  }
+}

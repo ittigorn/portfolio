@@ -1,0 +1,108 @@
+@import 'global_addon.scss';
+
+// Most of the code goes here
+	html {
+		body {
+			.fader {
+				display: none;
+			}
+			.loading {
+				opacity: 0;
+			}
+			.large_same_photo {
+				img.loading {opacity: 0; width: 1px; height: 1px;}
+			}
+			img.img-thumbnail {
+				background-color: transparentize(white,0.7);
+				margin: 4px;
+				height: 100px;
+
+				&:hover {
+					cursor: pointer;
+					background-color: $main_kicker_color1;
+				}
+			}
+			img.load_more {
+				height: 40px;
+			}
+			img.img-tall {
+				height: auto;
+				width: 150px;
+			}
+			img.img-real-size {
+				height: auto;
+				width: auto;
+			}
+		}
+	}
+	// END DEFAULT SIZE
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+	html {
+		body {
+
+		}
+	}
+	// END XX SMALL SIZE
+
+}// END CUSTOM
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 576px) {
+
+	html {
+		body {
+
+		}
+	}
+	// END EXTRA SMALL SIZE
+
+}// END CUSTOM
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	html {
+		body {
+			img.img-thumbnail {
+				height: auto;
+				margin: 7px;
+			}
+			img.load_more {
+				height: auto;
+			}
+			img.img-tall {
+				height: auto;
+				width: auto;
+			}
+		}
+	}
+	// END SMALL SIZE
+
+}// END CUSTOM
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+	html {
+		body {
+
+		}
+	}
+	// END MEDIUM SIZE
+
+}// END CUSTOM
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+	html {
+		body {
+
+		}
+	}
+	// END LARGE SIZE
+
+}// END CUSTOM

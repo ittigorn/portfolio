@@ -1,0 +1,86 @@
+@import 'global_addon.scss';
+
+// Most of the code goes here
+	html {
+		body {
+			#wrapper {
+				
+			}
+		}
+	}
+	// END DEFAULT SIZE
+
+/* Bootstrap 4's xs */
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+	html {
+		body {
+			#wrapper {
+				
+			}
+		}
+	}
+	// END XX SMALL SIZE
+
+}// END CUSTOM
+
+/* Bootstrap 4's sm */
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 576px) {
+
+	html {
+		body {
+			#wrapper {
+				
+			}
+		}
+	}
+	// END EXTRA SMALL SIZE
+
+}// END CUSTOM
+
+/* Bootstrap 3's md */
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	html {
+		body {
+			#wrapper {
+				
+			}
+		}
+	}
+	// END SMALL SIZE
+
+}// END CUSTOM
+
+/* Bootstrap 4's lg */
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+	html {
+		body {
+			#wrapper {
+				
+			}
+		}
+	}
+	// END MEDIUM SIZE
+
+}// END CUSTOM
+
+/* Bootstrap 4's xl */
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+	html {
+		body {
+			#wrapper {
+				
+			}
+		}
+	}
+	// END LARGE SIZE
+
+}// END CUSTOM
