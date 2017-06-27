@@ -476,7 +476,7 @@
 											<li>
 												<a href="https://www.viewbug.com/member/Petch" target="_blank">
 													<p><?php lang('แกลเลอรี่ส่วนตัวของผมบน'); ?> Viewbug.com</p>
-													<p class="description">( แกลเลอรี่ส่วนตัวที่รวบรวมภาพต่างๆ ของผมตั้งแต่อดีตถึงปัจจุบัน )</p>
+													<p class="description">( <?php lang('แกลเลอรี่ส่วนตัวที่รวบรวมภาพต่างๆ ของผมตั้งแต่อดีตถึงปัจจุบัน'); ?> )</p>
 													<p class="url">www.viewbug.com/member/Petch</p>
 												</a>
 											</li>
