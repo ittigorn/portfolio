@@ -434,22 +434,45 @@
 						</div>
 					</section>
 
+					<section class="row" id="sample">
+						<div class="col-11 col-md-10 col-centered fixed_max_width">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-12">
+										<h2 class="section_title"><i class="fa fa-link"></i><?php lang('โค้ดตัวอย่าง'); ?></h2>
+									</div>
+									<div class="col-12 col-xl-9 col-centered sample">
+										<ul>
+											<li>
+												<a href="https://github.com/ittigorn/portfolio" target="_blank">
+													<p><?php lang('เว็บไซต์พอร์ตโฟลิโอของผม'); ?></p>
+													<p class="description">( Object Oriented PHP, Bootstrap 4, SASS )</p>
+													<p class="url">github.com/ittigorn/portfolio</p>
+												</a>
+											</li>
+											<li>
+												<a href="https://github.com/ittigorn/nayada_v2" target="_blank">
+													<p><?php lang('เว็บไซต์ร้าน Nayada Thai Cuisine เวอร์ชั่น 2'); ?></p>
+													<p class="description">( Object Oriented PHP, Bootstrap 3, SASS )</p>
+													<p class="url">github.com/ittigorn/nayada_v2</p>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
 					<section class="row" id="misc">
 						<div class="col-11 col-md-10 col-centered fixed_max_width">
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-12">
-										<h2 class="section_title development"><i class="fa fa-link"></i><?php lang('แหล่งอ้างอิงอื่นๆ'); ?></h2>
+										<h2 class="section_title"><i class="fa fa-link"></i><?php lang('แหล่งอ้างอิงอื่นๆ'); ?></h2>
 									</div>
 									<div class="col-12 col-xl-9 col-centered misc">
 										<ul>
-											<li>
-												<a href="https://github.com/ittigorn/nayada_v2" target="_blank">
-													<p><?php lang('โค้ดตัวอย่าง'); ?></p>
-													<p class="description">( <?php lang('เว็บไซต์ร้าน Nayada Thai Cuisine เวอร์ชั่น 2'); ?> – Object Oriented PHP, Bootstrap 3 )</p>
-													<p class="url">github.com/ittigorn/nayada_v2</p>
-												</a>
-											</li>
 											<li>
 												<a href="https://www.viewbug.com/member/Petch" target="_blank">
 													<p><?php lang('แกลเลอรี่ส่วนตัวของผมบน'); ?> Viewbug.com</p>

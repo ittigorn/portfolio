@@ -260,6 +260,32 @@
 						}
 					}
 				}
+				section#sample {
+					padding-top: 30px;
+					padding-bottom: 30px;
+					div.sample {
+						position: relative;
+						overflow: hidden;
+						ul {
+							padding-left: 25px;
+							li {
+								p {
+									margin-bottom: 5px;
+									&.description, &.url {
+										margin-left: 15px;
+									}
+								}
+								a {
+									color: inherit;
+									transition: color .3s;
+									&:hover, &:focus {
+										color: $main_color1;
+									}
+								}
+							}
+						}
+					}
+				}
 				section#misc {
 					padding-top: 30px;
 					padding-bottom: 30px;
