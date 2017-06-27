@@ -178,14 +178,6 @@
 		<script src='https://www.google.com/recaptcha/api.js<?php echo ($page->language === "th") ? "?hl=th" : ''; ?>'></script>
 	<?php  } // end if bypass !== TRUE ?>
 
-	<?php if ($page_mode === 'message_sent') { ?>
-		<style type="text/css">
-			p#space_before_bottom_bar {
-				background-color: #FFFFFF !important;
-			}
-		</style>
-	<?php } // end if ?>
-
 </head>
 <body lang="<?php echo $page->language; ?>">
 <?php require_once(SITE_ROOT."_includes/navigation_bar.php"); ?>
@@ -200,10 +192,15 @@
 			<div class="container-fluid contact_form">
 				<div class="row">
 					<div class="col-12 col-sm-11 col-md-9 col-lg-8 col-xl-7 col-centered">
-						<form method="post" action="contact.php" target="_self">
+						<form class="fixed_max_width" method="post" action="contact.php" target="_self">
 							<fieldset>
 
-								<legend><?php lang('ติดต่อเรา'); ?></legend>
+								<legend><?php lang('ติดต่อ'); ?></legend>
+
+								<div class="other_channels">
+									<a title="Line" href="http://line.me/ti/p/~<?php echo $server->line; ?>" target="_blank"><img src="_images/line_sq.jpg"></a>
+									<a title="LinkedIn" href="<?php echo $server->linkedin; ?>" target="_blank"><img src="_images/linkedin_sq.jpg"></a>
+								</div>
 
 								<div class="form-group">
 									<label class="col control-label"><?php lang("เรื่อง"); ?> *</label>  
@@ -211,7 +208,7 @@
 										<select class="custom-select contact_subject" name="contact_subject">
 											<option value="general"<?php echo ($contact_subject === 'general') ? ' selected="selected"' : ''; ?>><?php lang('แนะนำ, ติชมทั่วไป'); ?></option>
 											<option value="info"<?php echo ($contact_subject === 'info') ? ' selected="selected"' : ''; ?>><?php lang('ขอข้อมูลเพิ่มเติม'); ?></option>
-											<option value="complaint"<?php echo ($contact_subject === 'complaint') ? ' selected="selected"' : ''; ?>><?php lang('ร้องเรียน'); ?></option>
+											<!-- <option value="complaint"<?php echo ($contact_subject === 'complaint') ? ' selected="selected"' : ''; ?>><?php lang('ร้องเรียน'); ?></option> -->
 										</select>
 									</div>
 								</div>
@@ -314,8 +311,8 @@
 									<div class="form-group">
 									  <label class="col control-label"></label>
 									  <div class="col">
-									  	<p class="notice"><?php lang('กรุณายืนยัน reCaptcha ก่อนส่งข้อความ'); ?></p>
-									  	<div class="g-recaptcha" data-callback="enable_submit_button" data-sitekey="<?php echo $server->recaptcha_sitekey; ?>"></div>
+									  	<div class="g-recaptcha" data-theme="dark" data-callback="enable_submit_button" data-sitekey="<?php echo $server->recaptcha_sitekey; ?>"></div>
+									  	<p class="recaptcha_notice"><i class="fa fa-chevron-up"></i> <?php lang('กรุณายืนยัน reCaptcha นี้ก่อนส่งข้อความ'); ?></p>
 									  </div>
 									</div>
 								<?php  } // end if bypass !== TRUE ?>
@@ -323,9 +320,9 @@
 								<!-- Button -->
 								<div class="form-group">
 								  <label class="col control-label"></label>
-								  <div class="col">
-								    <button type="submit" id="submit_email" name="submit" class="btn btn-success"><span class="fa fa-send"></span> <?php lang("ส่งข้อความ"); ?></button> 
-								    <button type="button" name="clear" class="btn btn-warning clear"><span class="fa fa-times-circle"></span> <?php lang("ล้างข้อมูล"); ?></button>
+								  <div class="col text-center">
+								    <button type="submit" id="submit_email" name="submit" class="btn btn-outline-success"><span class="fa fa-send"></span> <?php lang("ส่งข้อความ"); ?></button> 
+								    <button type="button" name="clear" class="btn btn-outline-warning clear"><span class="fa fa-times-circle"></span> <?php lang("ล้างข้อมูล"); ?></button>
 								  </div>
 								</div>
 							</fieldset>
@@ -338,7 +335,8 @@
 			<script type="text/javascript">
 
 				function enable_submit_button() {
-					$('button#submit_email').prop('disabled', false);
+					$('button#submit_email').removeClass('disabled');
+					$('.recaptcha_notice').hide();
 				} // end function
 
 				$(document).ready(function(){
@@ -426,7 +424,53 @@
 					validate_inputs();
 
 					<?php if ((($server->host === 'localhost') && ($server->use_recaptcha_localhost)) || (($server->host !== 'localhost') && ($server->use_recaptcha_public))) { ?>
-						$('button#submit_email').prop('disabled', true);
+
+						$('button#submit_email').addClass('disabled');
+						$('button#submit_email').click(function(event) {
+							if ($(this).hasClass('disabled')) {
+								event.preventDefault();
+								$('.g-recaptcha').focus();
+								window.flash_set_counter 	= 0;
+								window.flash_set_notice 	= setInterval(function () {
+									if (window.flash_set_counter < 5) {
+										if (window.flash_set_counter % 2 == 0) {
+											$('.recaptcha_notice').css('color', '#fd6f1b');
+											window.flash_set_counter++;
+										}
+										else {
+											$('.recaptcha_notice').css('color', 'white');
+											window.flash_set_counter++;
+										}
+									}
+									else {
+										clearInterval(flash_set_notice);
+										$('.recaptcha_notice').css('color', 'white');
+									}
+								}, 300); // set to run every 30 seconds
+							}
+						});
+
+						$('button#submit_email').hover(function() {
+							if ($(this).hasClass('disabled')) {
+								window.flash_counter 	= 0;
+								window.flash_notice 	= setInterval(function () {
+									if (window.flash_counter == 0) {
+										$('.recaptcha_notice').css('color', '#fd6f1b');
+										window.flash_counter++;
+									}
+									else {
+										$('.recaptcha_notice').css('color', 'white');
+										window.flash_counter = 0;
+									}
+								}, 300); // set to run every 30 seconds
+							}
+						}, function() {
+							if (flash_notice) {
+								clearInterval(flash_notice);
+								$('.recaptcha_notice').css('color', 'white');
+							}
+						});
+						
 					<?php } // ebd if ?>
 
 					// events
@@ -477,76 +521,7 @@
 	<?php 	
 				} // end if contact form is enabled
 	?>
-			<div class="container-fluid">
-				<div class="row">
-					<div class="company_info col-12">
-						<img src="_images/_contact/sakura_branch.png">
-						<div class="col-11 col-sm-8 col-md-10 col-lg-10 col-xl-9 col-centered">
-							<div class="row">
-								<div class="col-12 col-sm-12 col-md-4 col-lg-6 col-xl-7"></div>
-								<div class="col-12 col-sm-12 col-md-8 col-lg-6 col-xl-5">
-									<h2><?php echo htmlspecialchars($server->{'name_' . $page->language}, ENT_COMPAT, 'UTF-8'); ?></h2>
-										<p><?php echo htmlspecialchars($server->{'address_' . $page->language}, ENT_COMPAT, 'UTF-8'); ?></p>
-										<p><a href="tel:<?php echo $server->phone; ?>"><i class="fa fa-phone"></i> <?php echo phone_format($server->phone); ?></a></p>
-										<p><i class="fa fa-envelope"></i> <?php echo htmlspecialchars($server->customer_service_email, ENT_COMPAT, 'UTF-8'); ?></p>
-										<p><i class="fa fa-clock-o"></i> <?php echo $server->opening_time; ?> - <?php echo $server->closing_time; ?><?php echo ($page->language === 'th') ? ' น.' : ''; ?></p>
-										<p id="store_status_indicator"></p>
 
-										<div class="button_container">
-											<a class="line_button" href="http://line.me/ti/p/~<?php echo $server->line; ?>" target="_blank">
-												<img src="_images/line.png" title="Official Line Account">
-											</a>
-											<a class="facebook_button" href="<?php echo $server->facebook; ?>" target="_blank">
-												<img src="_images/facebook.png" title="Official Facebook Page">
-											</a>
-											<a class="instagram_button" href="<?php echo $server->instagram; ?>" target="_blank">
-												<img src="_images/instagram.png" title="Official Instagram Page">
-											</a>
-										</div>
-										
-										<!-- <div class="line-it-button" data-lang="<?php echo $page->language; ?>" data-type="friend" data-lineid="@yoihouse" style="display: none;"></div>
-										<script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script> -->
-											
-										<!-- <span class="d-block"></span>
-										<div class="fb-like" data-href="https://www.facebook.com/yoiskincare" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div> -->
-
-
-								</div>
-							</div>
-						</div>
-						
-						
-					</div>
-				</div>
-			</div>
-			<script type="text/javascript">
-
-				$(document).ready(function(){
-
-					var $opening_time = Number(<?php echo $server->opening_time; ?>);
-					var $closing_time = Number(<?php echo $server->closing_time; ?>);
-					var $force_closed = <?php echo $server->force_closed; ?>;
-
-					// declaring function
-					function check_store_open() {
-						$date 	= new Date(); // make new date object
-						$now 	= ($date.getUTCHours() + ($date.getUTCMinutes() / 100)) + 7; // get UTC time and add 7 to make it this time zone
-						if (($now >= $opening_time) && ($now < $closing_time) && ($force_closed != 1)) {
-							var $text = "<?php echo ($page->language === 'en') ? "We're open" : "ขณะนี้เราเปิดทำการอยู่"; ?>";
-							$('#store_status_indicator').html('<span class="open"><i class="fa fa-check-circle-o"></i> ' + $text + '</span>');
-						}
-						else {
-							var $text = "<?php echo ($page->language === 'en') ? "Sorry, we're closed at this time" : "ขออภัยขณะนี้เราไม่เปิดทำการ"; ?>";
-							$('#store_status_indicator').html('<span class="closed"><i class="fa fa-times-circle-o"></i> ' + $text + '</span>');
-						}
-					}
-
-					check_store_open(); // run once at initialization
-					setInterval(function () { check_store_open(); }, 30000); // set to run every 30 seconds
-
-				});
-
-			</script>
 	<?php
 			} // end if page_mode === "new_entry"
 			elseif ($page_mode === "message_sent") {
@@ -555,7 +530,7 @@
 	<div class="container-fluid">
 		<div class="col success centered">
 			<h1><i class="fa fa-check-circle-o" style="color: green; font-size: 1.3em;"></i> <?php lang("ข้อความของคุณได้ถูกส่งเรียบร้อยแล้ว"); ?></h1>
-			<h4><?php lang("ขอบคุณที่ติดต่อเรา"); ?></h4>
+			<h4><?php lang("ขอบคุณที่ติดต่อมาครับ"); ?></h4>
 			<h4>&nbsp;</h4>
 			<h4><?php lang("ระบบจะเปลี่ยนหน้าอัตโนมัติใน..."); ?> <span class="countdown">6</span></h4>
 		</div>

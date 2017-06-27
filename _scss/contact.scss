@@ -6,9 +6,6 @@
 			#wrapper {
 				padding-top: 0;
 				padding-bottom: 0;
-				background-image: url("../_images/_contact/sakura.png");
-				background-repeat: no-repeat;
-				background-position: right center;
 				div.success {
 					padding-top: 40px;
 				}
@@ -16,20 +13,34 @@
 					padding-top: 20px;
 					padding-bottom: 60px;
 					form {
+						div.other_channels {
+							text-align: right;
+							margin-right: 15px;
+							a {
+								img {
+									height: auto;
+									width: 45px;
+									border-radius: 3px;
+								}
+							}
+						}
 						.input-group-addon {
 							background-color: default;
-							color: $main_color1;
+							color: darken($text_color,50%);
 						}
 						legend {
 							padding-left: 5px;
 							text-align: center;
 							color: $main_color1;
-							font-size: 2.7em;
-							font-weight: bold;
+							font-size: 2.1em;
+							font-weight: normal;
+						}
+						.input-group-addon {
+							background-color: $text_color;
 						}
 						.contact_option {
 							label:not(.control-label) {
-								border-color: rgba(255,0,0,0);
+								border-color: $text_color;
 								border-radius: 3px;
 								border-width: 1px;
 								border-style: dashed;
@@ -42,8 +53,16 @@
 								}
 							}
 						}
+						select {
+							background-color: $text_color;
+							border-color: $text_color;
+							color: darken($text_color,50%);
+							font-weight: bold;
+						}
 						input, textarea {
-							background-color: rgba(255,255,255,.75);
+							background-color: $background_color;
+							border-color: $text_color;
+							color: $main_color1;
 							&.error {
 								border-color: red;
 								background-color: rgba(255,0,0,.1);
@@ -57,100 +76,37 @@
 								}
 							}
 						}
-					}
-				}
-				div.company_info {
-					background-color: white;
-					//background-color: lighten($main_color3,40%);
-					color: $main_color3;
-					position: relative;
-					overflow: hidden;
-					padding-top: 70px;
-					a {
-						transition: color .2s;
-						&:hover, &:focus {
-							text-decoration: none;
-							color: $main_color1;
-						}
-					}
-					&>img {
-						position: absolute;
-						bottom: 0px;
-						left: 0;
-						opacity: 1;
-						height: 100%;
-					}
-					div p img {
-						height: 20px;
-						width: auto;
-					}
-					span{
-						i {
+						.recaptcha_notice {
+							color: white;
 							font-size: 1.2em;
+							padding-top: 15px;
+							padding-left: 17px;
+							transition: color .2s;
 						}
-						&.open {
-							color: lighten(green,10%);
-						}
-						&.closed {
-							color: lighten(red,10%);
-						}
-					}
-					h2 {
-						color: $main_kicker_color1;
-						padding-bottom: 15px;
-						font-weight: bold;
-					}
-					p {
-						padding-left: 20px;
-						&>i {
-
-						}
-					}
-					iframe.line-it-button {
-						margin-left: 20px;
-					}
-					div.fb-like {
-						margin-left: 20px;
-						color: white;
-					}
-					div.button_container {
-						margin-left: 20px;
-						a {
-							&:hover {
-								opacity: .8;
+						.btn-outline-success, .btn-outline-warning {
+							border-color: $text_color;
+							color: $text_color;
+							background-color: $background_color;
+							&:focus:not(.disabled), &:hover:not(.disabled) {
+								border-color: $main_color1;
+								color: $main_color1;
+								background-color: $background_color;
 							}
-						}
-						.line_button {
-							margin-right: 10px;
-							img {
-								width: 40px;
-								height: auto;
-							}
-						}
-						.facebook_button {
-							margin-right: 10px;
-							img {
-								width: 40px;
-								height: auto;
-							}
-						}
-						.instagram_button {
-							img {
-								width: 40px;
-								height: auto;
+							&.disabled:focus, &.disabled:hover {
+								border-color: $text_color;
+								color: $text_color;
+								background-color: $background_color;
+								box-shadow: none;
 							}
 						}
 					}
-					
 				}
 			}
 			#space_before_bottom_bar{
-				background-color: white;
-				margin: 0;
-				padding-bottom: 40px;
+				
 			}
 			footer#bottom_bar {
-				margin: 0;
+				
 			}
 		}
 	}

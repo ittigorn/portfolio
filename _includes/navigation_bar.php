@@ -13,7 +13,7 @@
 				<li class="nav-item<?php echo ($page->name === 'index') ? ' active' : ''; ?>">
 					<a class="nav-link" href="index.php"><?php lang('สรุปคุณสมบัติ',TRUE); ?></a>
 				</li>
-				<li class="nav-item dropdown">
+				<!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle<?php echo (($page->name === 'computer') || ($page->name === 'photography') || ($page->name === 'english')) ? ' active' : ''; ?>" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						<?php lang('ความเชี่ยวชาญ',TRUE); ?>
 					</a>
@@ -22,7 +22,7 @@
 						<a class="dropdown-item<?php echo ($page->name === 'photography') ? ' active' : ''; ?>" href="photography.php"><?php lang('การถ่ายภาพ',TRUE); ?></a>
 						<a class="dropdown-item<?php echo ($page->name === 'english') ? ' active' : ''; ?>" href="english.php"><?php lang('ภาษาอังกฤษ',TRUE); ?></a>
 					</div>
-				</li>
+				</li> -->
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						<?php lang('โค้ดตัวอย่าง',TRUE); ?>
@@ -31,11 +31,11 @@
 						<a class="dropdown-item<?php echo ($page->name === 'computer') ? ' active' : ''; ?>" target="_blank" href="https://github.com/ittigorn/nayada_v2">Nayada Thai Cuisine v.2 (2015)</a>
 					</div>
 				</li>
-				<!-- <li class="nav-item active">
-					<a class="nav-link" href="index.php?scroll=sample_code"><?php lang('โค้ดตัวอย่าง',TRUE); ?></a>
-				</li> -->
-				<li class="nav-item<?php echo ($page->name === 'achievements') ? ' active' : ''; ?>">
+				<!-- <li class="nav-item<?php echo ($page->name === 'achievements') ? ' active' : ''; ?>">
 					<a class="nav-link" href="achievements.php"><?php lang('รางวัล',TRUE); ?></a>
+				</li> -->
+				<li class="nav-item<?php echo ($page->name === 'contact') ? ' active' : ''; ?>">
+					<a class="nav-link" href="contact.php"><?php lang('ติดต่อ',TRUE); ?></a>
 				</li>
 			</ul>
 

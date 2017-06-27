@@ -23,7 +23,7 @@ class mailer {
 		$mail = new PHPMailer;
 		$mail->isSendmail();
 		$mail->CharSet 	= 'UTF-8'; // Set charset
-		$mail->setFrom($this->customer_service_email, 'Yoi Customer Service');
+		$mail->setFrom($this->customer_service_email, 'Ittigorn Tradussadee');
 		$mail->isHTML(true);
 		$mail->addAddress($customer_email,$customer_name);
 		$mail->Subject 	= $subject;
@@ -81,9 +81,9 @@ class mailer {
 
 		$mail->isSendmail();
 		$mail->CharSet = 'UTF-8'; // Set charset
-		$mail->setFrom($this->customer_service_email, "Yoi website\'s contact form");
+		$mail->setFrom($this->customer_service_email, "Portfolio website\'s contact form");
 		$mail->isHTML(true);
-		$mail->addAddress($this->contact_form_email_destination, 'Customer Support');
+		$mail->addAddress($this->contact_form_email_destination, 'Ittigorn Tradussadee');
 
 		$mail->Subject = '(Contact Form) '.$subject;
 

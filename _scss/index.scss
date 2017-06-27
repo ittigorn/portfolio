@@ -14,7 +14,7 @@
 					background: linear-gradient(to bottom, rgba(38, 38, 38, 0), rgba(38, 38, 38, .9), rgba(38, 38, 38, 1));
 					h3 {
 						text-align: center;
-						color: inherit;
+						color: rgba(231,202,185, 1);
 						transition: color .3s;
 						cursor: pointer;
 						font-size: 1.3em;
@@ -58,6 +58,7 @@
 					h2 {
 						color: $main_color1;
 						margin-bottom: 15px;
+						text-align: center;
 					}
 					p {
 						a {
@@ -67,6 +68,10 @@
 								color: $main_color1;
 							}
 						}
+					}
+					div.left_group {
+						text-align: center;
+						margin-bottom: 20px;
 					}
 					.intro_container {
 						overflow: hidden;
@@ -80,11 +85,11 @@
 					div.inner_div {
 						position: relative;
 						overflow: hidden;
-						padding-top: 20px;
+						padding-top: 30px;
 						background-color: $background_color;
 						border-radius: 5px;
 						ul {
-							padding: 0 0 0 20px;
+							padding: 0 0 10px 20px;
 							margin-right: 15px;
 							margin-left: 15px;
 						}
@@ -102,6 +107,8 @@
 						}
 					}
 					div.core {
+						position: relative;
+						overflow: hidden;
 						p {
 							margin-bottom: 5px;
 						}
@@ -117,63 +124,165 @@
 						}
 					}
 				}
-				section#technical {
+				section#job {
 					padding-top: 20px;
 					padding-bottom: 20px;
 					background-color: lighten($background_color,15%);
 					div.inner_div {
+						max-width: 750px;
 						position: relative;
 						overflow: hidden;
-						padding: 20px;
+						padding-top: 20px;
 						background-color: $background_color;
 						border-radius: 5px;
-						h3 {
+						h2 {
+							margin-top: 10px;
+							margin-bottom: 0;
+						}
+						h3.year {
 							font-size: 1.2em;
 							color: lighten($text_color, 10%);
+							text-align: center;
+							margin-top: 10px;
+
+							// line in the back
+							position: relative;
+							z-index: 1;
+							&:before {
+								border-top: 2px solid $text_color;
+								content:"";
+								margin: 0 auto; /* this centers the line to the full width specified */
+								position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+								top: 50%; left: 0; right: 0; bottom: 0;
+								width: 55%;
+								z-index: -1;
+							}
+							span { 
+								/* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+								background: $background_color;
+								padding: 0 10px;
+							}
+							// END line in the back
 						}
-						ul {
-							margin-right: 15px;
-							margin-left: 15px;
-							padding-left: 15px;
-							margin-bottom: 0;
-							li {
-								border-width: 0 0 0 1px;
-								border-color: $main_color1;
-								border-style: solid;
-								margin-left: -15px;
-								padding-left: 15px;
-								list-style: none;
-								ul {
-									li {
-										margin-left: -25px;
+						div.job_container {
+							padding-bottom: 35px;
+							div.job {
+								max-width: 450px;
+								margin: auto;
+								h4 {
+									font-size: 1.4em;
+									margin-left: 20px;
+								}
+								p {
+									margin: 0 0 0 35px;
+									border-style: solid;
+									border-width: 0 0 0 1px;
+									border-color: $main_color1;
+									padding-left: 10px;
+									a {
+										color: inherit;
+										transition: color .3s;
+										&:hover, &:focus {
+											color: $main_color1;
+										}
 									}
 								}
 							}
 						}
 					}
 				}
-				section#experience {
-					padding-top: 30px;
+				section#technical {
+					padding-top: 10px;
 					padding-bottom: 30px;
 					h2 {
 
 					}
+					div.inner_div {
+						position: relative;
+						overflow: hidden;
+						background-color: $background_color;
+						border-radius: 5px;
+						h3 {
+							font-size: 1.2em;
+							color: lighten($text_color, 10%);
+						}
+					}
 					ul {
-						padding-left: 25px;
+						margin-right: 15px;
+						margin-left: 15px;
+						padding-left: 15px;
+						margin-bottom: 0;
 						li {
-							p {
-								margin-bottom: 5px;
-								&.description, &.url {
-									margin-left: 15px;
+							border-width: 0 0 0 1px;
+							border-color: $main_color1;
+							border-style: solid;
+							margin-left: -15px;
+							padding-left: 15px;
+							list-style: none;
+							ul {
+								li {
+									margin-left: -25px;
 								}
 							}
 						}
 					}
-					a {
-						color: inherit;
-						transition: color .3s;
-						&:hover, &:focus {
-							color: $main_color1;
+				}
+				section#project {
+					padding-top: 20px;
+					padding-bottom: 20px;
+					background-color: lighten($background_color,15%);
+					div.inner_div {
+						position: relative;
+						overflow: hidden;
+						max-width: 800px;
+						padding-top: 30px;
+						background-color: $background_color;
+						border-radius: 5px;
+						ul {
+							padding: 0 0 10px 20px;
+							margin-right: 15px;
+							margin-left: 15px;
+							li {
+								p {
+									margin-bottom: 5px;
+									&.description, &.url {
+										margin-left: 15px;
+									}
+								}
+							}
+						}
+						a {
+							color: inherit;
+							transition: color .3s;
+							&:hover, &:focus {
+								color: $main_color1;
+							}
+						}
+					}
+				}
+				section#misc {
+					padding-top: 30px;
+					padding-bottom: 30px;
+					div.misc {
+						position: relative;
+						overflow: hidden;
+						ul {
+							padding-left: 25px;
+							li {
+								p {
+									margin-bottom: 5px;
+									&.description, &.url {
+										margin-left: 15px;
+									}
+								}
+								a {
+									color: inherit;
+									transition: color .3s;
+									&:hover, &:focus {
+										color: $main_color1;
+									}
+								}
+							}
 						}
 					}
 				}
@@ -205,7 +314,7 @@
 		body {
 			#wrapper {
 				section#intro {
-					img#profile_pic {
+					h2 {
 						
 					}
 				}
@@ -247,6 +356,9 @@
 			#wrapper {
 				section#intro {
 					margin-top: 15px;
+					h2 {
+						text-align: left;
+					}
 				}
 				section#summary {
 					div.inner_div {

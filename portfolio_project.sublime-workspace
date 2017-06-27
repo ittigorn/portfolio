@@ -4,6 +4,62 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-align-last"
+			],
+			[
+				"cs",
+				"css	.css() - single"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass()"
+			],
+			[
+				"recapt",
+				"recaptcha_notice"
+			],
+			[
+				"recap",
+				"recaptcha_notice"
+			],
+			[
+				"back",
+				"background_color"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"bac",
+				"background_color"
+			],
+			[
+				"ติ",
+				"ติดต่อ"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"กร",
+				"กรุงเทพมหานครฯ"
+			],
+			[
 				"paddin",
 				"padding-bottom"
 			],
@@ -22,14 +78,6 @@
 			[
 				"main",
 				"main_color1"
-			],
-			[
-				"backgrou",
-				"background_color"
-			],
-			[
-				"text",
-				"text_color"
 			],
 			[
 				"margi",
@@ -66,14 +114,6 @@
 			[
 				"border-",
 				"border-color"
-			],
-			[
-				"border",
-				"border-width"
-			],
-			[
-				"margin",
-				"margin-right"
 			],
 			[
 				"margin-",
@@ -118,10 +158,6 @@
 			[
 				"beauty",
 				"beauty_tips"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"pad",
@@ -194,10 +230,6 @@
 			[
 				"hide",
 				"hide_image_picker"
-			],
-			[
-				"remove",
-				"removeAttr	.removeAttr()"
 			],
 			[
 				"resul",
@@ -468,10 +500,6 @@
 				"absolute"
 			],
 			[
-				"bac",
-				"background-image"
-			],
-			[
 				"cur",
 				"cursor"
 			],
@@ -486,76 +514,16 @@
 			[
 				"load",
 				"load	.load()"
-			],
-			[
-				"main_col",
-				"main_color3"
-			],
-			[
-				"font",
-				"font-family"
-			],
-			[
-				"padding",
-				"padding-top"
-			],
-			[
-				"backgroun",
-				"background-color"
-			],
-			[
-				"carou",
-				"carousel_size"
-			],
-			[
-				"loadin",
-				"load_index_carousel"
-			],
-			[
-				"win",
-				"win_width"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "_includes/_functions/functions.php",
+			"file": "public/secret/index.php",
 			"settings":
 			{
-				"buffer_size": 4032,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/index.php",
-			"settings":
-			{
-				"buffer_size": 22745,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_scss/index.scss",
-			"settings":
-			{
-				"buffer_size": 4873,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_scss/global.scss",
-			"settings":
-			{
-				"buffer_size": 9216,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_includes/navigation_bar.php",
-			"settings":
-			{
-				"buffer_size": 4528,
+				"buffer_size": 83,
 				"line_ending": "Windows"
 			}
 		}
@@ -609,14 +577,27 @@
 		"/D/wamp64/www/portfolio2/_includes",
 		"/D/wamp64/www/portfolio2/_includes/_functions",
 		"/D/wamp64/www/portfolio2/_includes/_functions/_classes",
-		"/D/wamp64/www/portfolio2/_scss"
+		"/D/wamp64/www/portfolio2/_scss",
+		"/D/wamp64/www/portfolio2/public"
 	],
 	"file_history":
 	[
+		"/D/wamp64/www/portfolio2/public/secret.php",
+		"/C/Users/Petch/Desktop/Agenda.txt",
+		"/D/wamp64/www/portfolio2/public/index.php",
+		"/C/Users/Petch/Desktop/test.js",
+		"/D/wamp64/www/portfolio2/_includes/_functions/functions.php",
+		"/D/wamp64/www/yoi/public/index.php",
+		"/D/wamp64/www/portfolio2/_includes/_functions/_classes/mailer.php",
+		"/D/wamp64/www/portfolio2/public/contact.php",
+		"/D/wamp64/www/portfolio2/_scss/contact.scss",
+		"/D/wamp64/www/portfolio2/_scss/global.scss",
+		"/D/wamp64/www/portfolio2/_includes/navigation_bar.php",
+		"/D/wamp64/www/portfolio2/_includes/bottom_bar.php",
+		"/D/wamp64/www/portfolio1/public/contact.php",
+		"/D/wamp64/www/portfolio2/_scss/index.scss",
 		"/D/wamp64/www/portfolio2/_includes/_functions/_classes/server.php",
 		"/D/wamp64/www/portfolio2/public/error_log",
-		"/D/wamp64/www/portfolio2/_includes/navigation_bar.php",
-		"/D/wamp64/www/portfolio2/_scss/global.scss",
 		"/D/wamp64/www/portfolio/_includes/navigation_bar.php",
 		"/D/wamp64/www/yoi/_scss/global.scss",
 		"/D/wamp64/www/portfolio1/public/index.php",
@@ -642,7 +623,6 @@
 		"/D/wamp64/www/yoi/_includes/_functions/_classes/page.php",
 		"/D/wamp64/www/yoi/_includes/_functions/functions.php",
 		"/D/Tutorials/_Currently Learning/Node Js Essential Training Updated 12 2015/Exercice Files/Ch03/03_02/start/app.js",
-		"/C/Users/Petch/Desktop/test.js",
 		"/D/Pics/Photo shooting ideas/Links.txt",
 		"/D/Tutorials/_Currently Learning/Node Js Essential Training Updated 12 2015/Exercice Files/Ch03/03_01/start/global.js",
 		"/E/Documentary - Films/Kitchen Nightmares s06/kitchen.nightmares.us.s06e16.hr.ws.pdtv.x264-2hd.srt",
@@ -658,12 +638,10 @@
 		"/D/wamp64/www/yoi/database_backup_13_pm_06_01_17.sql",
 		"/D/wamp64/www/yoi/database_backup_12_pm_06_01_17.sql",
 		"/D/Web Developing/Portfolio/ideas.txt",
-		"/C/Users/Petch/Desktop/Agenda.txt",
 		"/D/wamp64/www/portfolio/_includes/admin_global_header_addon.php",
 		"/D/wamp64/www/portfolio/_includes/admin_ajax_run_first_addon.php",
 		"/D/wamp64/_portfolio_connections/portfolio_project",
 		"/D/wamp64/_portfolio2_connections/config.php",
-		"/D/wamp64/www/yoi/public/index.php",
 		"/D/wamp64/www/yoi/_scss/index.scss",
 		"/D/wamp64/www/yoi/public/_ajax/index_static_div.php",
 		"/D/wamp64/www/yoi/_scss/stores.scss",
@@ -731,16 +709,7 @@
 		"/D/Tutorials/_New Tutorials/Facebook for Business/README.txt",
 		"/D/Tutorials/_New Tutorials/Building a Web Interface with React.js/Important ! Readme.txt",
 		"/D/wamp64/www/yoi/public/admin/.htaccess",
-		"/D/wamp64/www/yoi/_includes/.htaccess",
-		"/D/wamp64/www/yoi/.htaccess",
-		"/D/wamp64/www/yoi/public/admin/_ajax/admin_ajax_server.php",
-		"/D/wamp64/www/yoi/_includes/global_header_addon.php",
-		"/D/wamp64/www/yoi/public/_scripts/global.js",
-		"/D/wamp64/www/yoi/_includes/_functions/_classes/option.php",
-		"/D/wamp64/www/yoi/public/admin/_ajax/admin_ajax_product_options.php",
-		"/D/wamp64/www/yoi/_scss/admin_product_options.scss",
-		"/D/wamp64/www/yoi/_scss/admin_edit_home_page.scss",
-		"/D/wamp64/www/yoi/public/admin/_ajax/admin_ajax_edit_home_page.php"
+		"/D/wamp64/www/yoi/_includes/.htaccess"
 	],
 	"find":
 	{
@@ -767,6 +736,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"magento",
+			"ittigorn.space",
+			"portfolio2",
+			"background",
+			"backgrou",
+			"image",
+			"space",
+			"space_before_bottom_bar",
+			"enable_submit_button",
+			"notice",
+			"recap",
+			"fixe",
+			"exper",
+			"    ",
+			"techn",
+			"technocal",
 			"navbarNavDropdown",
 			";\n",
 			"brand",
@@ -878,23 +863,7 @@
 			"cancel_upload",
 			"cancel",
 			"calcel_uplo",
-			"fade_in_fader",
-			"$win",
-			"$wiwn",
-			"delete_con",
-			".css",
-			"uploadFiles",
-			"form",
-			"image_picker_fader",
-			"cover",
-			"show_image_picker",
-			"relative_path_addon",
-			"admin_store_fader",
-			"content_photo",
-			"cover_photo",
-			"fader",
-			"$current_element).siblings('",
-			"this).siblings('p.result_indicator'"
+			"fade_in_fader"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -902,6 +871,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"yoibrand.com",
+			"yoi",
+			"\\t",
 			"'); ?>",
 			"lang('",
 			"'); ?></li>",
@@ -1026,10 +998,7 @@
 			"$this->",
 			";\\n",
 			"public $",
-			"\\npublic ",
-			"store",
-			"stores",
-			"twitter"
+			"\\npublic "
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1040,24 +1009,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_includes/_functions/functions.php",
+					"file": "public/secret/index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4032,
+						"buffer_size": 83,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1620,
-								1620
+								83,
+								83
 							]
 						],
 						"settings":
@@ -1065,139 +1034,10 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 700.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "public/index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 22745,
-						"regions":
-						{
-							"bookmarks":
-							{
-								"flags": 144,
-								"icon": "bookmark",
-								"regions":
-								[
-									[
-										22608,
-										22608
-									]
-								],
-								"scope": "bookmarks"
-							}
-						},
-						"selection":
-						[
-							[
-								12391,
-								12391
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 517.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_scss/index.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4873,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4616,
-								4616
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4650.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_scss/global.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9216,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3188,
-								3188
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4845.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "_includes/navigation_bar.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4528,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2726,
-								2726
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 590.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]

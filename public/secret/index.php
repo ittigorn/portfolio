@@ -1,0 +1,1 @@
+<?php header("location: http://www.ittigorn.space/portfolio/public/index2.php"); ?>
