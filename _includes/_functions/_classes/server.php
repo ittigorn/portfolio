@@ -164,6 +164,19 @@ class server {
 
 	} // end function
 
+
+	public function get_latest_filemtime($path,$file_ext) {
+
+		$file_list 		= glob($path.'*.'.$file_ext);
+		$max_filemtime 	= 0;
+		foreach ($file_list as $file) {
+			$filemtime = filemtime($file);
+			if ($filemtime > $max_filemtime) { $max_filemtime = $filemtime; }
+		}
+		return $max_filemtime;
+
+	} // end function
+
 }// end class server
 
 ?>

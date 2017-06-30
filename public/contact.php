@@ -29,14 +29,14 @@
 			$prepared_message 	= '';
 
 			// IF SUBJECT IS PREDEFINED
-			if (isset($_GET["subject"])){
-				if ($_GET["subject"] === 'info') {
-					$contact_subject = 'info';
-					if (isset($_GET['product'])) {
-						$prepared_message = ($page->language === 'th') ? 'เกี่ยวกับสินค้า : ' . $_GET['product'] . PHP_EOL . PHP_EOL : 'About product : ' . $_GET['product'] . PHP_EOL . PHP_EOL;
-					}
-				} // end if
-			} // end if
+			// if (isset($_GET["subject"])){
+			// 	if ($_GET["subject"] === 'info') {
+			// 		$contact_subject = 'info';
+			// 		if (isset($_GET['product'])) {
+			// 			$prepared_message = ($page->language === 'th') ? 'เกี่ยวกับสินค้า : ' . $_GET['product'] . PHP_EOL . PHP_EOL : 'About product : ' . $_GET['product'] . PHP_EOL . PHP_EOL;
+			// 		}
+			// 	} // end if
+			// } // end if
 
 			if(isset($_POST["submit"])) {
 
@@ -171,7 +171,7 @@
 <html>
 <head>
 	<?php require_once(SITE_ROOT."_includes/global_header_addon.php"); ?>
-	<title>Contact Us</title>
+	<title><?php lang('ติดต่อ',TRUE); ?></title>
 
 	<!-- Google's reCaptcha Script -->
 	<?php if ((($server->host === 'localhost') && ($server->use_recaptcha_localhost)) || (($server->host !== 'localhost') && ($server->use_recaptcha_public))) { ?>
@@ -207,6 +207,7 @@
 									<div class="col inputGroupContainer">
 										<select class="custom-select contact_subject" name="contact_subject">
 											<option value="general"<?php echo ($contact_subject === 'general') ? ' selected="selected"' : ''; ?>><?php lang('แนะนำ, ติชมทั่วไป'); ?></option>
+											<option value="job"<?php echo ($contact_subject === 'job') ? ' selected="selected"' : ''; ?>><?php lang('ติดต่อเรื่องงาน'); ?></option>
 											<option value="info"<?php echo ($contact_subject === 'info') ? ' selected="selected"' : ''; ?>><?php lang('ขอข้อมูลเพิ่มเติม'); ?></option>
 											<!-- <option value="complaint"<?php echo ($contact_subject === 'complaint') ? ' selected="selected"' : ''; ?>><?php lang('ร้องเรียน'); ?></option> -->
 										</select>

@@ -55,6 +55,10 @@ class mailer {
 				$subject = 'General Comment & Suggestions';
 				break;
 
+			case 'job':
+				$subject = 'Job Inquiry';
+				break;
+
 			case 'info':
 				$subject = 'Information Inquiry';
 				break;

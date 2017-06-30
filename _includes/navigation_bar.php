@@ -28,12 +28,13 @@
 						<?php lang('โค้ดตัวอย่าง',TRUE); ?>
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item<?php echo ($page->name === 'computer') ? ' active' : ''; ?>" target="_blank" href="https://github.com/ittigorn/nayada_v2">Nayada Thai Cuisine v.2 (2015)</a>
+						<a class="dropdown-item" target="_blank" href="https://github.com/ittigorn/portfolio"><?php lang('เว็บพอร์ตโฟลิโอของผม เวอร์ชั่น 2 - 2017 (เว็บไซต์นี้)',TRUE); ?></a>
+						<a class="dropdown-item" target="_blank" href="https://github.com/ittigorn/nayada_v2"><?php lang('เว็บ Nayada Thai Cuisine เวอร์ชั่น 2 - 2015',TRUE); ?></a>
 					</div>
 				</li>
-				<!-- <li class="nav-item<?php echo ($page->name === 'achievements') ? ' active' : ''; ?>">
-					<a class="nav-link" href="achievements.php"><?php lang('รางวัล',TRUE); ?></a>
-				</li> -->
+				<li class="nav-item<?php echo ($page->name === 'about') ? ' active' : ''; ?>">
+					<a class="nav-link" href="about.php"><?php lang('เกี่ยวกับเว็บไซต์นี้',TRUE); ?></a>
+				</li>
 				<li class="nav-item<?php echo ($page->name === 'contact') ? ' active' : ''; ?>">
 					<a class="nav-link" href="contact.php"><?php lang('ติดต่อ',TRUE); ?></a>
 				</li>

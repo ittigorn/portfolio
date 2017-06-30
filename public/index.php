@@ -419,7 +419,7 @@
 												<li>
 													<a href="http://www.ittigorn.space/resistor/" target="_blank">
 														<p><?php lang('ตัวอ่านค่าความต้านทาน Resistor'); ?></p>
-														<p class="description">( <?php lang('โปรเจ็คเสริมที่ผมสร้างขึ้นมาในช่วงเวลาว่างเพื่อช่วยอ่านค่าความต้านทานของ Resistor'); ?> )</p>
+														<p class="description">( <?php lang('โปรเจ็คเสริมที่ผมสร้างขึ้นมาในช่วงเวลาว่างเพื่อช่วยอ่านค่าความต้านทานของ Resistor ระหว่างทำโปรเจ็ค Arduino ของผม'); ?> )</p>
 														<p class="url">www.ittigorn.space/resistor</p>
 													</a>
 												</li>	
@@ -445,15 +445,15 @@
 										<ul>
 											<li>
 												<a href="https://github.com/ittigorn/portfolio" target="_blank">
-													<p><?php lang('เว็บไซต์พอร์ตโฟลิโอของผม'); ?></p>
-													<p class="description">( Object Oriented PHP, Bootstrap 4, SASS )</p>
+													<p><?php lang('เว็บพอร์ตโฟลิโอของผม เวอร์ชั่น 2 - 2017 (เว็บไซต์นี้)',TRUE); ?></p>
+													<p class="description">( Object Oriented PHP, Bootstrap 4, SASS, etc. )</p>
 													<p class="url">github.com/ittigorn/portfolio</p>
 												</a>
 											</li>
 											<li>
 												<a href="https://github.com/ittigorn/nayada_v2" target="_blank">
-													<p><?php lang('เว็บไซต์ร้าน Nayada Thai Cuisine เวอร์ชั่น 2'); ?></p>
-													<p class="description">( Object Oriented PHP, Bootstrap 3, SASS )</p>
+													<p><?php lang('เว็บ Nayada Thai Cuisine เวอร์ชั่น 2 - 2015',TRUE); ?></p>
+													<p class="description">( Object Oriented PHP, Bootstrap 3, SASS, etc. )</p>
 													<p class="url">github.com/ittigorn/nayada_v2</p>
 												</a>
 											</li>
