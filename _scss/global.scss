@@ -138,10 +138,13 @@
 			nav {
 				&#main_nav {
 					padding-top: 4px;
-					padding-bottom: 4px;
+					padding-bottom: 8px;
 					background-color: $background_color;
+					border-bottom-color: rgba($main_color1,0);
+					border-bottom-style: solid;
+					border-bottom-width: 1px;
 					.navbar-brand {
-						padding: 0;
+						padding: 2px 0 0 0;
 						img {
 							height: auto;
 							width: 130px;
@@ -238,7 +241,7 @@
 			}
 			#wrapper {
 				margin: 0;
-				padding: 20px 0 40px 0;
+				padding: 55px 0 40px 0;
 				h1.title {
 					text-align: center;
 				}
@@ -262,7 +265,7 @@
 				bottom: 0;
 				width: 100%;
 				border-radius: 0;
-				border-top: $main_color1 solid 2px;
+				border-top: $main_color1 solid 1px;
 				border-bottom: none;
 				border-left: none;
 				border-right: none;

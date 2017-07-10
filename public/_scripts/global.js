@@ -60,6 +60,13 @@ function calculate_bottom_bar_position() {
 }// end function
 
 
+// take either rgb or rgba values and reassign them with custom alpha value
+function reassemble_rgba(rgb,a) {
+  var vals = rgb.substring(rgb.indexOf('(') +1, rgb.length -1).split(', ');
+  return 'rgba('+vals[0]+','+vals[1]+','+vals[2]+','+a+')';
+}
+
+
 
 $(document).ready(function() {
 
@@ -68,5 +75,21 @@ $(document).ready(function() {
 
 	// call function on resize
 	$(window).resize(function() { calculate_bottom_bar_position(); });
+
+	// event handler on scroll to show bottom border of the navigation bar
+	window.main_nav_border_rgb = $('#main_nav').css('border-bottom-color');
+	$(window).scroll(function(event) {
+		var max_scroll = 300;
+		var top = $(window).scrollTop();
+		if (top != 0) {
+			var alpha = (top/(max_scroll/100)/100);
+			if (alpha > 1) { alpha = 1; }
+			var rgba = reassemble_rgba(window.main_nav_border_rgb,alpha);
+			$('#main_nav').css('border-bottom-color', rgba);
+		}
+		else {
+			$('#main_nav').removeAttr('style');
+		}
+	});
 
 });

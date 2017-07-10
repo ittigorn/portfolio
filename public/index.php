@@ -363,7 +363,7 @@
 											<h2 class="section_title development"><i class="fa fa-tasks"></i><?php lang('โปรเจ็ค / เว็บไซต์ในประสบการณ์'); ?></h2>
 										</div>
 										<div class="col-12 col-md-11 col-centered">
-											<ul>
+											<ol>
 												<li>
 													<a href="http://www.yoibrand.com" target="_blank">
 														<p><?php lang('เว็บไซต์ผลิตภัณฑ์โยอิ ( Yoi )'); ?></p>
@@ -399,11 +399,26 @@
 													</a>
 												</li>
 												<li>
+													<p><?php lang('เวอร์ชันจำลองของ YoiBrand.com'); ?></p>
+													<p class="description">( <?php lang('เวอร์ชันจำลองของ YoiBrand.com สำหรับสาธิตการทำงานของ custom CMS และ Admin Control Panel'); ?> )</p>
+													<a href="http://www.ittigorn.space/yoi/" target="_blank">
+														<p class="url">www.ittigorn.space/yoi ( Client Side )</p>
+													</a>
+													<a href="http://www.ittigorn.space/yoi/public/admin/" target="_blank">
+														<p class="url">www.ittigorn.space/yoi/public/admin ( Admin Side )</p>
+													</a>
+													<a href="contact.php" title="<?php lang('คลิกเพื่อไปยังหน้า \'ติดต่อ\''); ?>">
+													<p class="url">** <?php lang('กรุณาติดต่อผมผ่านทางหน้า &quot;ติดต่อ&quot; เพื่อรับ Login และ Password สำหรับเข้าระบบครับ'); ?></p>
+													</a>
+												</li>
+												<li>
 													<a href="http://www.ittigorn.space/rm_tools/" target="_blank">
-														<p><?php lang('Admin Toolbox สำหรับ Roberto Martinez, Inc.'); ?></p>
-														<p class="description">( <?php lang('เวอร์ชั่นจำลองของ Admin Toolbox ที่ผมสร้างเพื่อช่วยทำงานต่างๆ ให้บริษัทโดยอัตโนมัติ URL และ password ถูกเปลี่ยนเพื่อรักษาความลับของบริษัท'); ?> )</p>
+														<p><?php lang('เวอร์ชันจำลองของ Admin Toolbox สำหรับ Roberto Martinez, Inc.'); ?></p>
+														<p class="description">( <?php lang('เวอร์ชันจำลองของ Admin Toolbox ที่ผมสร้างเพื่อช่วยทำงานต่างๆ ให้บริษัทโดยอัตโนมัติ URL และ password ถูกเปลี่ยนเพื่อรักษาความลับของบริษัท'); ?> )</p>
 														<p class="url">www.ittigorn.space/rm_tools</p>
-														<p class="url">** <?php lang('กรุณาติดต่อผมผ่านทางหน้า &quot;ติดต่อ&quot; เพื่อรับ Login และ Password สำหรับเข้าระบบครับ'); ?></p>
+													</a>
+													<a href="contact.php" title="<?php lang('คลิกเพื่อไปยังหน้า \'ติดต่อ\''); ?>">
+														<p class="url">** <?php lang('กรุณาติดต่อผมผ่านทางหน้า &quot;ติดต่อ&quot; เพื่อรับ Password สำหรับเข้าระบบครับ'); ?></p>
 													</a>
 												</li>
 												<li>
@@ -412,7 +427,9 @@
 														<p class="description">( <?php lang('โปรเจ็คของผมก่อนจะถูกสั่งหยุดเนื่องจากเจ้าของร้านสองคนตกลงกันไม่ได้'); ?> )</p>
 														
 														<p class="url">www.ittigorn.space/nayada_v2_preview</p>
+													</a>
 														<p class="description">* <?php lang('เนื่องจากโปรเจ็คนี้ยังไม่เสร็จ ฟังก์ชั่นบางอย่างอาจใช้ไม่ได้หรือถูกปิดโดยตั้งใจ'); ?></p>
+													<a href="contact.php" title="<?php lang('คลิกเพื่อไปยังหน้า \'ติดต่อ\''); ?>">
 														<p class="url">** <?php lang('กรุณาติดต่อผมผ่านทางเพจ &quot;ติดต่อ&quot; เพื่อรับ Login และ Password สำหรับเข้าระบบครับ'); ?></p>
 													</a>
 												</li>
@@ -423,7 +440,7 @@
 														<p class="url">www.ittigorn.space/resistor</p>
 													</a>
 												</li>	
-											</ul>
+											</ol>
 										</div>
 									</div>
 								</div>

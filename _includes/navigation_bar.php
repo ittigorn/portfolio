@@ -3,7 +3,7 @@
 	echo $page->generate_alert(); 
 ?>
 
-	<nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="main_nav">
+	<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top" id="main_nav">
 		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 			<i class="fa fa-bars"></i>
 		</button>

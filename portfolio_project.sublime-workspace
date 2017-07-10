@@ -4,16 +4,40 @@
 		"selected_items":
 		[
 			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"remove",
+				"removeAttr	.removeAttr()"
+			],
+			[
+				"scro",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"file",
+				"filemtime"
+			],
+			[
 				"text",
 				"text-align-last"
 			],
 			[
 				"cs",
 				"css	.css() - single"
-			],
-			[
-				"remove",
-				"removeClass	.removeClass()"
 			],
 			[
 				"recapt",
@@ -28,16 +52,8 @@
 				"background_color"
 			],
 			[
-				"padding",
-				"padding-top"
-			],
-			[
 				"backgrou",
 				"background-color"
-			],
-			[
-				"border",
-				"border-color"
 			],
 			[
 				"bac",
@@ -92,10 +108,6 @@
 				"linkedin"
 			],
 			[
-				"file",
-				"filename"
-			],
-			[
 				"temp",
 				"temp_key"
 			],
@@ -110,10 +122,6 @@
 			[
 				"get",
 				"get	$.get()"
-			],
-			[
-				"border-",
-				"border-color"
 			],
 			[
 				"margin-",
@@ -506,105 +514,11 @@
 			[
 				"fu",
 				"fun	Function"
-			],
-			[
-				"logo",
-				"logo_top"
-			],
-			[
-				"load",
-				"load	.load()"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "public/secret/index.php",
-			"settings":
-			{
-				"buffer_size": 83,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/index.php",
-			"settings":
-			{
-				"buffer_size": 27648,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Petch/Downloads/Zootopia 2016 1080p HDRip x264 AC3-JYK.th.srt",
-			"settings":
-			{
-				"buffer_size": 104075,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Package Control Messages\n========================\n\nMaterial Theme\n--------------\n\n  #### Material Theme for Sublime Text 3\n  \n  ## Version 4.0.7\n  \n  📣 **FIX**:\n  * Fix folder icon background color ([49460b9](https://github.com/equinusocio/material-theme/commit/49460b9)), closes [#1144](https://github.com/equinusocio/material-theme/issues/1144)\n  \n  \n  \n  ** Check the official changelog ( https://github.com/equinusocio/material-theme/blob/master/CHANGELOG.md  ) **\n",
-			"settings":
-			{
-				"buffer_size": 469,
-				"line_ending": "Windows",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"file": "/C/Users/Petch/Desktop/Agenda.txt",
-			"settings":
-			{
-				"buffer_size": 947,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_scss/index.scss",
-			"settings":
-			{
-				"buffer_size": 8066,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "UPDATE `table_name`\nSET column1 = value1, column2 = value2, ...\nWHERE condition;\n\nINSERT INTO table_name (column1, column2, column3, ...)\nVALUES (value1, value2, value3, ...);",
-			"settings":
-			{
-				"buffer_size": 175,
-				"line_ending": "Windows",
-				"name": "UPDATE `table_name`"
-			}
-		},
-		{
-			"contents": "INSERT INTO `customers` (`id`,`name`,`note`) \nVALUES ('20','Petch','no note');\n",
-			"settings":
-			{
-				"buffer_size": 79,
-				"line_ending": "Windows",
-				"name": "INSERT INTO `customers` (`id`,`name`,`note`)"
-			}
-		},
-		{
-			"contents": "UPDATE `customers` \nSET column1='something', column2='something' \nWHERE id=20;",
-			"settings":
-			{
-				"buffer_size": 78,
-				"line_ending": "Windows",
-				"name": "UPDATE `customers`"
-			}
-		},
-		{
-			"file": "/D/wamp64/www/yoi/_includes/_functions/_classes/option.php",
-			"settings":
-			{
-				"buffer_size": 16157,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -656,29 +570,49 @@
 		"/D/wamp64/www/portfolio2/_includes/_functions",
 		"/D/wamp64/www/portfolio2/_includes/_functions/_classes",
 		"/D/wamp64/www/portfolio2/_scss",
-		"/D/wamp64/www/portfolio2/public"
+		"/D/wamp64/www/portfolio2/public",
+		"/D/wamp64/www/portfolio2/public/_scripts",
+		"/D/wamp64/www/portfolio2/TEMPLATES"
 	],
 	"file_history":
 	[
-		"/D/wamp64/www/yoi/public/products.php",
-		"/D/wamp64/www/yoi/_scss/products.scss",
-		"/D/wamp64/www/yoi/_includes/_functions/_classes/mysql_db.php",
-		"/C/Users/Petch/Desktop/Agenda.txt",
-		"/D/wamp64/www/portfolio2/public/secret.php",
-		"/D/wamp64/www/portfolio2/public/index.php",
-		"/C/Users/Petch/Desktop/test.js",
-		"/D/wamp64/www/portfolio2/_includes/_functions/functions.php",
-		"/D/wamp64/www/yoi/public/index.php",
-		"/D/wamp64/www/portfolio2/_includes/_functions/_classes/mailer.php",
-		"/D/wamp64/www/portfolio2/public/contact.php",
+		"/C/Users/Petch/Desktop/test/test.txt",
 		"/D/wamp64/www/portfolio2/_scss/contact.scss",
 		"/D/wamp64/www/portfolio2/_scss/global.scss",
 		"/D/wamp64/www/portfolio2/_includes/navigation_bar.php",
+		"/D/wamp64/www/portfolio2/_scss/about.scss",
+		"/D/wamp64/www/portfolio2/public/about.php",
+		"/D/wamp64/www/portfolio2/_scss/index.scss",
+		"/D/wamp64/www/portfolio2/public/index.php",
+		"/D/wamp64/www/portfolio2/public/_scripts/global.js",
+		"/D/Google Drive Sync Folder/Resume/Sample Codes/option.php.txt",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/page.php",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/option.php",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/server.php",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/product.php",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/blog.php",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/admin.php",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/slide.php",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/store.php",
+		"/D/wamp64/www/yoi/_cron_jobs/backup_db.php",
+		"/E/Movies/Zootopia 2016/Zootopia 2016 1080p HDRip x264 AC3-JYK.srt",
+		"/D/wamp64/www/portfolio2/public/error_log",
+		"/D/wamp64/www/portfolio2/_includes/_functions/_classes/page.php",
+		"/D/wamp64/www/portfolio2/_includes/_functions/_classes/mailer.php",
+		"/D/wamp64/www/portfolio2/public/contact.php",
+		"/D/wamp64/www/portfolio2/_includes/_functions/_classes/server.php",
+		"/D/wamp64/www/portfolio2/public/secret/index.php",
+		"/C/Users/Petch/Desktop/Agenda.txt",
+		"/C/Users/Petch/Downloads/Zootopia 2016 1080p HDRip x264 AC3-JYK.th.srt",
+		"/D/wamp64/www/yoi/public/products.php",
+		"/D/wamp64/www/yoi/_scss/products.scss",
+		"/D/wamp64/www/yoi/_includes/_functions/_classes/mysql_db.php",
+		"/D/wamp64/www/portfolio2/public/secret.php",
+		"/C/Users/Petch/Desktop/test.js",
+		"/D/wamp64/www/portfolio2/_includes/_functions/functions.php",
+		"/D/wamp64/www/yoi/public/index.php",
 		"/D/wamp64/www/portfolio2/_includes/bottom_bar.php",
 		"/D/wamp64/www/portfolio1/public/contact.php",
-		"/D/wamp64/www/portfolio2/_scss/index.scss",
-		"/D/wamp64/www/portfolio2/_includes/_functions/_classes/server.php",
-		"/D/wamp64/www/portfolio2/public/error_log",
 		"/D/wamp64/www/portfolio/_includes/navigation_bar.php",
 		"/D/wamp64/www/yoi/_scss/global.scss",
 		"/D/wamp64/www/portfolio1/public/index.php",
@@ -701,7 +635,6 @@
 		"/D/wamp64/_portfolio1_connections/config.php",
 		"/D/wamp64/www/yoi/index.php",
 		"/D/wamp64/www/portfolio/_includes/_functions/_classes/page.php",
-		"/D/wamp64/www/yoi/_includes/_functions/_classes/page.php",
 		"/D/wamp64/www/yoi/_includes/_functions/functions.php",
 		"/D/Tutorials/_Currently Learning/Node Js Essential Training Updated 12 2015/Exercice Files/Ch03/03_02/start/app.js",
 		"/D/Pics/Photo shooting ideas/Links.txt",
@@ -711,11 +644,9 @@
 		"/C/Users/Petch/Desktop/index.html",
 		"/C/Users/Petch/Desktop/index.php",
 		"/D/wamp64/www/portfolio/_includes/_functions/functions.php",
-		"/D/wamp64/www/yoi/_cron_jobs/backup_db.php",
 		"/D/wamp64/www/yoi/SNIPPETS/cron_job_commands.txt",
 		"/D/wamp64/www/yoi/public/test.php",
 		"/D/wamp64/_yoi_connections/config.php",
-		"/D/wamp64/www/yoi/_includes/_functions/_classes/server.php",
 		"/D/wamp64/www/yoi/database_backup_13_pm_06_01_17.sql",
 		"/D/wamp64/www/yoi/database_backup_12_pm_06_01_17.sql",
 		"/D/Web Developing/Portfolio/ideas.txt",
@@ -727,7 +658,6 @@
 		"/D/wamp64/www/yoi/public/_ajax/index_static_div.php",
 		"/D/wamp64/www/yoi/_scss/stores.scss",
 		"/D/wamp64/www/yoi/public/admin/admin_login.php",
-		"/D/wamp64/www/yoi/_includes/_functions/_classes/slide.php",
 		"/D/Google Drive Sync Folder/Chat history with Top (Kc38)(VJ Cool).txt",
 		"/D/Downloads/Building.a.Note-Taking.App.for.Android/nfo.nfo",
 		"/D/wamp64/www/yoi/public/admin/admin_file.php",
@@ -743,7 +673,6 @@
 		"/D/Downloads/Zerene.Stacker.v1.02.64bit-FOSI/New folder/fosi.nfo",
 		"/D/Downloads/Zerene.Stacker.v1.02.64bit-FOSI/fo-zs64a/fosi.nfo",
 		"/D/wamp64/www/yoi/public/admin/admin_index.php",
-		"/D/wamp64/www/yoi/_includes/_functions/_classes/blog.php",
 		"/D/wamp64/www/yoi/public/_blogs/product_review/file_0.xml",
 		"/D/wamp64/www/yoi/public/blog.php",
 		"/D/wamp64/www/yoi/_includes/_modules/view_same_photo.php",
@@ -774,24 +703,11 @@
 		"/D/wamp64/www/yoi/public/_blogs/beauty_tips/.xml",
 		"/D/wamp64/www/experiments/domdocument/create.php",
 		"/D/wamp64/www/experiments/domdocument/temp.xml",
-		"/D/wamp64/www/experimental/domdocument/create.php",
-		"/D/wamp64/www/yoi/TEMPLATES/.htaccess",
-		"/D/wamp64/www/yoi/_scss/.htaccess",
-		"/D/wamp64/www/my_tools/upload.php",
-		"/D/wamp64/www/my_tools/ajax_upload.php",
-		"/D/wamp64/www/yoi/_includes/_functions/_classes/product.php",
-		"/D/wamp64/www/rm_tools/magento_category_code_generator/edit.php",
-		"/D/wamp64/www/yoi/SNIPPETS/misc.js",
-		"/D/wamp64/www/rm_tools/magento_category_code_generator/index.php",
-		"/D/Tutorials/_New Tutorials/The Science of Logo Design {AceMerlin}/AceMerlin.Torrents.nfo",
-		"/D/Tutorials/_New Tutorials/Facebook for Business/README.txt",
-		"/D/Tutorials/_New Tutorials/Building a Web Interface with React.js/Important ! Readme.txt",
-		"/D/wamp64/www/yoi/public/admin/.htaccess",
-		"/D/wamp64/www/yoi/_includes/.htaccess"
+		"/D/wamp64/www/experimental/domdocument/create.php"
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -814,6 +730,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"• ",
+			"ผม",
+			"wrapper",
+			"alert",
+			"info",
+			"complaint",
+			"general",
 			"นครสัตว์มหาสนุก",
 			"brea",
 			"breadcrumb",
@@ -934,14 +857,7 @@
 			"path_to_blog_folder",
 			"$xml",
 			"content[]",
-			"cover_photo_src",
-			"file_error",
-			"$file_1",
-			"file_1",
-			"    ",
-			"removeclass",
-			"checking",
-			"cancel_upload"
+			"cover_photo_src"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -949,6 +865,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"ฉัน",
 			" Zootopia ",
 			"Zootopia",
 			"yoibrand.com",
@@ -1074,9 +992,7 @@
 			"ร้านค้า",
 			"$new_store_info_array[\"name_en\"];",
 			"'';",
-			"\\t= ;",
-			"$this->",
-			";\\n"
+			"\\t= ;"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1087,312 +1003,14 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "public/secret/index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 83,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								83,
-								83
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "public/index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 27648,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								22931,
-								22931
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 10689.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/Petch/Downloads/Zootopia 2016 1080p HDRip x264 AC3-JYK.th.srt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 104075,
-						"regions":
-						{
-							"bookmarks":
-							{
-								"flags": 144,
-								"icon": "bookmark",
-								"regions":
-								[
-									[
-										3812,
-										3812
-									]
-								],
-								"scope": "bookmarks"
-							}
-						},
-						"selection":
-						[
-							[
-								3812,
-								3812
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 4570.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 469,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								469,
-								469
-							]
-						],
-						"settings":
-						{
-							"auto_indent": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Users/Petch/Desktop/Agenda.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 947,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "_scss/index.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8066,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5798,
-								5798
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5737.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 175,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								80,
-								80
-							]
-						],
-						"settings":
-						{
-							"auto_name": "UPDATE `table_name`",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 79,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								78,
-								78
-							]
-						],
-						"settings":
-						{
-							"auto_name": "INSERT INTO `customers` (`id`,`name`,`note`)",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 78,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								78,
-								78
-							]
-						],
-						"settings":
-						{
-							"auto_name": "UPDATE `customers`",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/D/wamp64/www/yoi/_includes/_functions/_classes/option.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 16157,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12160,
-								12168
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 9637.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -1429,7 +1047,7 @@
 	"project": "portfolio_project.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":

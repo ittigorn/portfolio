@@ -1,2 +1,0 @@
-[30-Jun-2017 17:21:24 Asia/Bangkok] PHP Fatal error:  Call to undefined method server::get_latest_filemtime() in /home/socaczxo/public_html/portfolio2/public/about.php on line 4
-[30-Jun-2017 17:21:28 Asia/Bangkok] PHP Fatal error:  Call to undefined method server::get_latest_filemtime() in /home/socaczxo/public_html/portfolio2/public/about.php on line 4
